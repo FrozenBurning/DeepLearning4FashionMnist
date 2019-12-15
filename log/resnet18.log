@@ -1,0 +1,2558 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+Iteration:500  Loss:tensor(1.0249, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(75, device='cuda:0')
+Iteration:1000  Loss:tensor(0.8186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Conv2d-59           [-1, 1024, 4, 4]       4,718,592
+      BatchNorm2d-60           [-1, 1024, 4, 4]           2,048
+             ReLU-61           [-1, 1024, 4, 4]               0
+           Conv2d-62           [-1, 1024, 4, 4]       9,437,184
+      BatchNorm2d-63           [-1, 1024, 4, 4]           2,048
+           Conv2d-64           [-1, 1024, 4, 4]         524,288
+      BatchNorm2d-65           [-1, 1024, 4, 4]           2,048
+    ResidualBlock-66           [-1, 1024, 4, 4]               0
+           Conv2d-67           [-1, 1024, 4, 4]       9,437,184
+      BatchNorm2d-68           [-1, 1024, 4, 4]           2,048
+             ReLU-69           [-1, 1024, 4, 4]               0
+           Conv2d-70           [-1, 1024, 4, 4]       9,437,184
+      BatchNorm2d-71           [-1, 1024, 4, 4]           2,048
+    ResidualBlock-72           [-1, 1024, 4, 4]               0
+           Linear-73                 [-1, 4096]       4,198,400
+      BatchNorm1d-74                 [-1, 4096]           8,192
+          Dropout-75                 [-1, 4096]               0
+           Linear-76                  [-1, 256]       1,048,832
+      BatchNorm1d-77                  [-1, 256]             512
+          Dropout-78                  [-1, 256]               0
+           Linear-79                   [-1, 10]           2,570
+================================================================
+Total params: 49,990,859
+Trainable params: 49,990,859
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 15.48
+Params size (MB): 190.70
+Estimated Total Size (MB): 206.19
+----------------------------------------------------------------
+Iteration:500  Loss:tensor(1.0261, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(78, device='cuda:0')
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Conv2d-59           [-1, 1024, 4, 4]       4,718,592
+      BatchNorm2d-60           [-1, 1024, 4, 4]           2,048
+             ReLU-61           [-1, 1024, 4, 4]               0
+           Conv2d-62           [-1, 1024, 4, 4]       9,437,184
+      BatchNorm2d-63           [-1, 1024, 4, 4]           2,048
+           Conv2d-64           [-1, 1024, 4, 4]         524,288
+      BatchNorm2d-65           [-1, 1024, 4, 4]           2,048
+    ResidualBlock-66           [-1, 1024, 4, 4]               0
+           Conv2d-67           [-1, 1024, 4, 4]       9,437,184
+      BatchNorm2d-68           [-1, 1024, 4, 4]           2,048
+             ReLU-69           [-1, 1024, 4, 4]               0
+           Conv2d-70           [-1, 1024, 4, 4]       9,437,184
+      BatchNorm2d-71           [-1, 1024, 4, 4]           2,048
+    ResidualBlock-72           [-1, 1024, 4, 4]               0
+           Linear-73                 [-1, 4096]       4,198,400
+      BatchNorm1d-74                 [-1, 4096]           8,192
+          Dropout-75                 [-1, 4096]               0
+           Linear-76                  [-1, 256]       1,048,832
+      BatchNorm1d-77                  [-1, 256]             512
+          Dropout-78                  [-1, 256]               0
+           Linear-79                   [-1, 10]           2,570
+================================================================
+Total params: 49,990,859
+Trainable params: 49,990,859
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 15.48
+Params size (MB): 190.70
+Estimated Total Size (MB): 206.19
+----------------------------------------------------------------
+Iteration:500  Loss:tensor(0.7023, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:1000  Loss:tensor(0.5762, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+echo: 0
+loss: 0.8491527742307521
+accuracy: 0.6965207839652449
+Iteration:1500  Loss:tensor(0.6027, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(78, device='cuda:0')
+Iteration:2000  Loss:tensor(0.5061, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:2500  Loss:tensor(0.3252, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 1
+loss: 0.4664049921630871
+accuracy: 0.8445978969194312
+Iteration:3000  Loss:tensor(0.3199, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:3500  Loss:tensor(0.3788, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 2
+loss: 0.35063499886701455
+accuracy: 0.8859473736176935
+Iteration:4000  Loss:tensor(0.2033, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:4500  Loss:tensor(0.2910, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:5000  Loss:tensor(0.1865, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 3
+loss: 0.2701017591001769
+accuracy: 0.9129319707740916
+Iteration:5500  Loss:tensor(0.2220, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+Iteration:6000  Loss:tensor(0.1800, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 4
+loss: 0.21261279200796643
+accuracy: 0.9321275177725118
+Iteration:6500  Loss:tensor(0.1683, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:7000  Loss:tensor(0.1603, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:7500  Loss:tensor(0.2181, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+echo: 5
+loss: 0.16659839231503235
+accuracy: 0.9469922492101106
+Iteration:8000  Loss:tensor(0.1658, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:8500  Loss:tensor(0.1296, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 6
+loss: 0.13285058592468219
+accuracy: 0.9576841429699842
+Iteration:9000  Loss:tensor(0.0946, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:9500  Loss:tensor(0.1743, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:10000  Loss:tensor(0.1030, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 7
+loss: 0.10956692597483053
+accuracy: 0.9653053416271721
+Iteration:10500  Loss:tensor(0.0275, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:11000  Loss:tensor(0.0448, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 8
+loss: 0.08955099568871479
+accuracy: 0.9719737361769352
+Iteration:11500  Loss:tensor(0.0669, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:12000  Loss:tensor(0.1100, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12500  Loss:tensor(0.1658, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 9
+loss: 0.0798814881484114
+accuracy: 0.9750777547393364
+Iteration:13000  Loss:tensor(0.0382, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:13500  Loss:tensor(0.0367, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 10
+loss: 0.06677123949911569
+accuracy: 0.9792592318325435
+Iteration:14000  Loss:tensor(0.0511, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:14500  Loss:tensor(0.0275, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:15000  Loss:tensor(0.1328, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 11
+loss: 0.06062168246951678
+accuracy: 0.9813314573459715
+Iteration:15500  Loss:tensor(0.0422, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16000  Loss:tensor(0.0597, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 12
+loss: 0.0558098462928163
+accuracy: 0.9828865521327014
+Iteration:16500  Loss:tensor(0.0774, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:17000  Loss:tensor(0.0604, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:17500  Loss:tensor(0.0905, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 13
+loss: 0.051053683295195676
+accuracy: 0.9842577507898894
+Iteration:18000  Loss:tensor(0.1018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:18500  Loss:tensor(0.0097, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 14
+loss: 0.04911518394711647
+accuracy: 0.9852006812796208
+Iteration:19000  Loss:tensor(0.0565, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:19500  Loss:tensor(0.0410, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:20000  Loss:tensor(0.0609, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 15
+loss: 0.048392922941177474
+accuracy: 0.9852130233017377
+Iteration:20500  Loss:tensor(0.0368, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21000  Loss:tensor(0.0123, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21500  Loss:tensor(0.0594, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 16
+loss: 0.043898145842187895
+accuracy: 0.9868828988941548
+Iteration:22000  Loss:tensor(0.0151, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:22500  Loss:tensor(0.0483, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(69, device='cuda:0')
+echo: 17
+loss: 0.0431606669483212
+accuracy: 0.9870285347551343
+Iteration:23000  Loss:tensor(0.0317, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:23500  Loss:tensor(0.0368, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:24000  Loss:tensor(0.0473, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 18
+loss: 0.04102392492140533
+accuracy: 0.9876764909162717
+Iteration:24500  Loss:tensor(0.0285, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:25000  Loss:tensor(0.0826, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 19
+loss: 0.039913559349961464
+accuracy: 0.9882405213270142
+Iteration:25500  Loss:tensor(0.0099, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:26000  Loss:tensor(0.0280, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:26500  Loss:tensor(0.0486, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(77, device='cuda:0')
+echo: 20
+loss: 0.03958188875090613
+accuracy: 0.9884787223538705
+Iteration:27000  Loss:tensor(0.0347, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27500  Loss:tensor(0.0489, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 21
+loss: 0.039462576932928525
+accuracy: 0.9882022610584519
+Iteration:28000  Loss:tensor(0.0266, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:28500  Loss:tensor(0.0455, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29000  Loss:tensor(0.0698, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 22
+loss: 0.03823881714250216
+accuracy: 0.9887897413112164
+Iteration:29500  Loss:tensor(0.0842, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:30000  Loss:tensor(0.0254, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 23
+loss: 0.03922908466679337
+accuracy: 0.9888761354660347
+Iteration:30500  Loss:tensor(0.0264, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:31000  Loss:tensor(0.0400, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:31500  Loss:tensor(0.0262, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 24
+loss: 0.04291565892471245
+accuracy: 0.9871605943917852
+Iteration:32000  Loss:tensor(0.0389, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:32500  Loss:tensor(0.0099, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 25
+loss: 0.03995227193666584
+accuracy: 0.988440462085308
+Iteration:33000  Loss:tensor(0.0551, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:33500  Loss:tensor(0.0164, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:34000  Loss:tensor(0.1217, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 26
+loss: 0.03914468402173929
+accuracy: 0.988635466034755
+Iteration:34500  Loss:tensor(0.0118, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:35000  Loss:tensor(0.0393, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+echo: 27
+loss: 0.03759802193296293
+accuracy: 0.9889748716429699
+Iteration:35500  Loss:tensor(0.0111, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:36000  Loss:tensor(0.0129, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:36500  Loss:tensor(0.0562, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 28
+loss: 0.03716768762505044
+accuracy: 0.9895709913112164
+Iteration:37000  Loss:tensor(0.0079, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:37500  Loss:tensor(0.0117, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 29
+loss: 0.03771676595755345
+accuracy: 0.9887811018957346
+Iteration:38000  Loss:tensor(0.0271, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:38500  Loss:tensor(0.0041, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:39000  Loss:tensor(0.0035, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 30
+loss: 0.011510829141107497
+accuracy: 0.9971391192733017
+Iteration:39500  Loss:tensor(0.0036, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40000  Loss:tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40500  Loss:tensor(0.0095, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 31
+loss: 0.0033730347488166714
+accuracy: 0.9998457247235387
+Iteration:41000  Loss:tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:41500  Loss:tensor(0.0034, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 32
+loss: 0.002501417443746227
+accuracy: 0.999944460900474
+Iteration:42000  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:42500  Loss:tensor(0.0023, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:43000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 33
+loss: 0.0021391615339063437
+accuracy: 0.9999938289889415
+Iteration:43500  Loss:tensor(0.0020, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:44000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 34
+loss: 0.0019842812309253484
+accuracy: 0.9999814869668247
+Iteration:44500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45500  Loss:tensor(0.0025, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 35
+loss: 0.0018079613549134579
+accuracy: 1.0
+Iteration:46000  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:46500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 36
+loss: 0.0017414991929612194
+accuracy: 0.9999876579778831
+Iteration:47000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:47500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48000  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 37
+loss: 0.0016593719358294083
+accuracy: 1.0
+Iteration:48500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:49000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 38
+loss: 0.001639545626833882
+accuracy: 0.9999938289889415
+Iteration:49500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50500  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 39
+loss: 0.0016017624315523248
+accuracy: 0.9999938289889415
+Iteration:51000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:51500  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 40
+loss: 0.0015819664239202218
+accuracy: 1.0
+Iteration:52000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52500  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:53000  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 41
+loss: 0.0015327983666310679
+accuracy: 1.0
+Iteration:53500  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54000  Loss:tensor(0.0026, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 42
+loss: 0.0015318028171440825
+accuracy: 1.0
+Iteration:54500  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 43
+loss: 0.001511022484494229
+accuracy: 1.0
+Iteration:56000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:56500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 44
+loss: 0.0015012191298291217
+accuracy: 1.0
+Iteration:57000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:57500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 45
+loss: 0.0015135149077525566
+accuracy: 1.0
+Iteration:58500  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59000  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 46
+loss: 0.0014973882479831506
+accuracy: 0.9999938289889415
+Iteration:60000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 47
+loss: 0.0014965822765718422
+accuracy: 1.0
+Iteration:61000  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:61500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 48
+loss: 0.0015116758244759498
+accuracy: 1.0
+Iteration:62500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:63000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 49
+loss: 0.0015276960045942304
+accuracy: 0.9999938289889415
+Iteration:63500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64500  Loss:tensor(0.0029, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 50
+loss: 0.001500965392336214
+accuracy: 1.0
+Iteration:65000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 51
+loss: 0.0015010376332848557
+accuracy: 1.0
+Iteration:66000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:66500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67000  Loss:tensor(0.0011, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 52
+loss: 0.0015110089686385829
+accuracy: 1.0
+Iteration:67500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 53
+loss: 0.0015202235940094937
+accuracy: 1.0
+Iteration:68500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 54
+loss: 0.0015128167381246779
+accuracy: 1.0
+Iteration:70000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 55
+loss: 0.0015284522399041467
+accuracy: 1.0
+Iteration:71000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:71500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 56
+loss: 0.0015355883602797397
+accuracy: 0.9999938289889415
+Iteration:72500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73000  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 57
+loss: 0.0015390098683821481
+accuracy: 1.0
+Iteration:73500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 58
+loss: 0.0015445984288495428
+accuracy: 1.0
+Iteration:75000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75500  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 59
+loss: 0.001538050830960833
+accuracy: 1.0
+Iteration:76000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:76500  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 60
+loss: 0.0015250790406659976
+accuracy: 1.0
+Iteration:77500  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:78000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 61
+loss: 0.0015353085727895805
+accuracy: 1.0
+Iteration:78500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 62
+loss: 0.0015350705047438176
+accuracy: 1.0
+Iteration:80000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:81000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 63
+loss: 0.0015379872233209628
+accuracy: 1.0
+Iteration:81500  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:82000  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 64
+loss: 0.0015407345908926432
+accuracy: 1.0
+Iteration:82500  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 65
+loss: 0.0015249862682293529
+accuracy: 1.0
+Iteration:84000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 66
+loss: 0.001557709589802129
+accuracy: 0.9999938289889415
+Iteration:85000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85500  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:86000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 67
+loss: 0.001539972092971753
+accuracy: 1.0
+Iteration:86500  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 68
+loss: 0.0015429707902805854
+accuracy: 1.0
+Iteration:87500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:88000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:88500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 69
+loss: 0.0015442227921007262
+accuracy: 1.0
+Iteration:89000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 70
+loss: 0.0015522231915038767
+accuracy: 0.9999938289889415
+Iteration:90000  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:91000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 71
+loss: 0.0015405474838838982
+accuracy: 1.0
+Iteration:91500  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:92000  Loss:tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 72
+loss: 0.0015396865731764344
+accuracy: 1.0
+Iteration:92500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 73
+loss: 0.0015479851856910127
+accuracy: 1.0
+Iteration:94000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:94500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 74
+loss: 0.0015444387302007143
+accuracy: 1.0
+Iteration:95000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:95500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:96000  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 75
+loss: 0.0015433058184961455
+accuracy: 1.0
+Iteration:96500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 76
+loss: 0.0015393771831826034
+accuracy: 1.0
+Iteration:97500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98000  Loss:tensor(0.0021, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 77
+loss: 0.001549661513818884
+accuracy: 1.0
+Iteration:99000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:99500  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:100000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 78
+loss: 0.0015337683845643914
+accuracy: 1.0
+Iteration:100500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:101000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 79
+loss: 0.0015533286236751806
+accuracy: 1.0
+Iteration:101500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:102000  Loss:tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:102500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 80
+loss: 0.0015490221809176508
+accuracy: 1.0
+Iteration:103000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:103500  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 81
+loss: 0.0015539423672748674
+accuracy: 1.0
+Iteration:104000  Loss:tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:104500  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:105000  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 82
+loss: 0.0015465763557884742
+accuracy: 1.0
+Iteration:105500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:106000  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 83
+loss: 0.0015544589407709656
+accuracy: 1.0
+Iteration:106500  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:107000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Linear-45                 [-1, 4096]       4,198,400
+      BatchNorm1d-46                 [-1, 4096]           8,192
+          Dropout-47                 [-1, 4096]               0
+           Linear-48                   [-1, 10]          40,970
+================================================================
+Total params: 7,021,515
+Trainable params: 7,021,515
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 12.85
+Params size (MB): 26.78
+Estimated Total Size (MB): 39.64
+----------------------------------------------------------------
+Iteration:500  Loss:tensor(1.0238, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(60, device='cuda:0')
+Iteration:1000  Loss:tensor(0.7563, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+echo: 0
+loss: 1.0239200604752907
+accuracy: 0.679839306872038
+Iteration:1500  Loss:tensor(0.5584, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:2000  Loss:tensor(0.5823, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:2500  Loss:tensor(0.5846, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 1
+loss: 0.5338857662150457
+accuracy: 0.8184044233807266
+Iteration:3000  Loss:tensor(0.3912, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:3500  Loss:tensor(0.5150, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 2
+loss: 0.4208270281576809
+accuracy: 0.8589677132701422
+Iteration:4000  Loss:tensor(0.2870, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:4500  Loss:tensor(0.4240, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:5000  Loss:tensor(0.3259, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+echo: 3
+loss: 0.34950438651475485
+accuracy: 0.8844379443127962
+Iteration:5500  Loss:tensor(0.2026, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:6000  Loss:tensor(0.3165, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 4
+loss: 0.2932454101611841
+accuracy: 0.9036680489731438
+Iteration:6500  Loss:tensor(0.2442, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:7000  Loss:tensor(0.3044, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:7500  Loss:tensor(0.2146, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 5
+loss: 0.24034088513980167
+accuracy: 0.9216664198262244
+Iteration:8000  Loss:tensor(0.2087, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:8500  Loss:tensor(0.2296, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 6
+loss: 0.20076277965641512
+accuracy: 0.9359560130331753
+Iteration:9000  Loss:tensor(0.1942, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:9500  Loss:tensor(0.0586, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:10000  Loss:tensor(0.1067, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 7
+loss: 0.16771557886524224
+accuracy: 0.9461258392575039
+Iteration:10500  Loss:tensor(0.1061, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:11000  Loss:tensor(0.1829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 8
+loss: 0.14371722135369153
+accuracy: 0.9539457444707741
+Iteration:11500  Loss:tensor(0.0953, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:12000  Loss:tensor(0.0902, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:12500  Loss:tensor(0.1111, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 9
+loss: 0.12355957857199237
+accuracy: 0.9597501974723539
+Iteration:13000  Loss:tensor(0.0423, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:13500  Loss:tensor(0.1081, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 10
+loss: 0.10782397333767978
+accuracy: 0.9650782484202212
+Iteration:14000  Loss:tensor(0.0960, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:14500  Loss:tensor(0.0982, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:15000  Loss:tensor(0.0861, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 11
+loss: 0.09495114770425134
+accuracy: 0.969758343206951
+Iteration:15500  Loss:tensor(0.0426, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:16000  Loss:tensor(0.0713, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 12
+loss: 0.08250072053420295
+accuracy: 0.9733831951026856
+Iteration:16500  Loss:tensor(0.0302, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17000  Loss:tensor(0.0524, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17500  Loss:tensor(0.0469, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 13
+loss: 0.07368162059700367
+accuracy: 0.9761255924170616
+Iteration:18000  Loss:tensor(0.0722, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:18500  Loss:tensor(0.0488, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 14
+loss: 0.061508674746140905
+accuracy: 0.9800059241706162
+Iteration:19000  Loss:tensor(0.0087, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:19500  Loss:tensor(0.0142, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:20000  Loss:tensor(0.0206, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 15
+loss: 0.05269219554165499
+accuracy: 0.9832728574249605
+Iteration:20500  Loss:tensor(0.0894, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:21000  Loss:tensor(0.0118, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:21500  Loss:tensor(0.0342, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 16
+loss: 0.044078160337750666
+accuracy: 0.986044875592417
+Iteration:22000  Loss:tensor(0.0417, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22500  Loss:tensor(0.0346, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 17
+loss: 0.04349482699156125
+accuracy: 0.986316400078989
+Iteration:23000  Loss:tensor(0.0336, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23500  Loss:tensor(0.0368, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:24000  Loss:tensor(0.1376, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 18
+loss: 0.03766481393998221
+accuracy: 0.9886416370458135
+Iteration:24500  Loss:tensor(0.0149, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:25000  Loss:tensor(0.0254, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 19
+loss: 0.03360276925120073
+accuracy: 0.989811660742496
+Iteration:25500  Loss:tensor(0.0210, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:26000  Loss:tensor(0.0135, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:26500  Loss:tensor(0.0096, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 20
+loss: 0.02982577452664874
+accuracy: 0.9915111571879937
+Iteration:27000  Loss:tensor(0.1098, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:27500  Loss:tensor(0.0281, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 21
+loss: 0.02559087887306302
+accuracy: 0.9930168838862559
+Iteration:28000  Loss:tensor(0.0091, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:28500  Loss:tensor(0.0140, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:29000  Loss:tensor(0.0211, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 22
+loss: 0.01804580285925989
+accuracy: 0.9953742101105845
+Iteration:29500  Loss:tensor(0.0173, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:30000  Loss:tensor(0.0843, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 23
+loss: 0.03135971488717261
+accuracy: 0.9914494470774091
+Iteration:30500  Loss:tensor(0.0221, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:31000  Loss:tensor(0.0180, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:31500  Loss:tensor(0.0098, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+echo: 24
+loss: 0.03348232873573481
+accuracy: 0.9905583530805687
+Iteration:32000  Loss:tensor(0.0531, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32500  Loss:tensor(0.0101, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 25
+loss: 0.026097385365976458
+accuracy: 0.9933316054502369
+Iteration:33000  Loss:tensor(0.0394, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33500  Loss:tensor(0.0375, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:34000  Loss:tensor(0.0505, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 26
+loss: 0.024345587644215502
+accuracy: 0.9939832642180095
+Iteration:34500  Loss:tensor(0.0218, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:35000  Loss:tensor(0.0270, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 27
+loss: 0.025136186170618316
+accuracy: 0.9937598736176935
+Iteration:35500  Loss:tensor(0.0370, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36000  Loss:tensor(0.0082, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36500  Loss:tensor(0.0101, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 28
+loss: 0.027832442497331383
+accuracy: 0.9931933748025277
+Iteration:37000  Loss:tensor(0.0200, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:37500  Loss:tensor(0.0303, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 29
+loss: 0.038855027771734385
+accuracy: 0.9894957049763032
+Iteration:38000  Loss:tensor(0.0219, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:38500  Loss:tensor(0.0119, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:39000  Loss:tensor(0.0125, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 30
+loss: 0.015285193210057208
+accuracy: 0.9972501974723539
+Iteration:39500  Loss:tensor(0.0054, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40000  Loss:tensor(0.0042, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40500  Loss:tensor(0.0076, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 31
+loss: 0.004924497471483775
+accuracy: 0.9999382898894155
+Iteration:41000  Loss:tensor(0.0048, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:41500  Loss:tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 32
+loss: 0.0036407557289825244
+accuracy: 0.9999691449447078
+Iteration:42000  Loss:tensor(0.0034, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:42500  Loss:tensor(0.0024, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:43000  Loss:tensor(0.0026, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 33
+loss: 0.0029776782336450617
+accuracy: 0.9999876579778831
+Iteration:43500  Loss:tensor(0.0037, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:44000  Loss:tensor(0.0027, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 34
+loss: 0.0026330391464991815
+accuracy: 1.0
+Iteration:44500  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45000  Loss:tensor(0.0038, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 35
+loss: 0.0023554207279959673
+accuracy: 1.0
+Iteration:46000  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:46500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 36
+loss: 0.002155077848660702
+accuracy: 1.0
+Iteration:47000  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:47500  Loss:tensor(0.0021, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:48000  Loss:tensor(0.0022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 37
+loss: 0.001987438700893838
+accuracy: 1.0
+Iteration:48500  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:49000  Loss:tensor(0.0013, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 38
+loss: 0.0018997881914166025
+accuracy: 1.0
+Iteration:49500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50000  Loss:tensor(0.0021, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50500  Loss:tensor(0.0026, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 39
+loss: 0.0018047134319870582
+accuracy: 1.0
+Iteration:51000  Loss:tensor(0.0014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:51500  Loss:tensor(0.0021, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 40
+loss: 0.0017505380695415028
+accuracy: 1.0
+Iteration:52000  Loss:tensor(0.0028, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:52500  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:53000  Loss:tensor(0.0018, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 41
+loss: 0.0016949230028109664
+accuracy: 1.0
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+echo: 0
+loss: 0.8927056227250122
+accuracy: 0.6760416666666667
+echo: 1
+loss: 0.6074692396473546
+accuracy: 0.79358214849921
+Iteration:500  Loss:tensor(0.7519, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(21, device='cuda:0')
+echo: 2
+loss: 0.5338705843093836
+accuracy: 0.8220453199052132
+echo: 3
+loss: 0.4686901113150809
+accuracy: 0.8456975710900473
+Iteration:1000  Loss:tensor(0.3722, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(16, device='cuda:0')
+echo: 4
+loss: 0.43287357984560926
+accuracy: 0.8582296603475513
+echo: 5
+loss: 0.39379016461813054
+accuracy: 0.8740151066350711
+echo: 6
+loss: 0.3625550426860556
+accuracy: 0.8840022709320696
+Iteration:1500  Loss:tensor(0.2923, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(14, device='cuda:0')
+echo: 7
+loss: 0.3419636009146252
+accuracy: 0.8911211492890996
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+echo: 0
+loss: 0.904210557022366
+accuracy: 0.6772018167456555
+echo: 1
+loss: 0.6272621728232687
+accuracy: 0.7869594194312797
+Iteration:500  Loss:tensor(0.4807, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+Iteration:500  Loss:tensor(0.9196, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(74, device='cuda:0')
+echo: 0
+loss: 1.039833902783021
+accuracy: 0.6358486374407583
+Iteration:1000  Loss:tensor(0.9141, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(78, device='cuda:0')
+Iteration:1500  Loss:tensor(0.9456, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+echo: 1
+loss: 0.6989237311962656
+accuracy: 0.7669826224328594
+Iteration:2000  Loss:tensor(0.7699, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+Iteration:2500  Loss:tensor(1.0630, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+echo: 2
+loss: 0.6111226214440231
+accuracy: 0.7986028830963665
+Iteration:3000  Loss:tensor(0.5616, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+echo: 3
+loss: 0.5388146058537101
+accuracy: 0.822237855450237
+Iteration:3500  Loss:tensor(0.3650, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:4000  Loss:tensor(0.2198, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 4
+loss: 0.4916682728694231
+accuracy: 0.8379739336492891
+Iteration:4500  Loss:tensor(0.3186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:5000  Loss:tensor(0.2990, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 5
+loss: 0.45803934185637685
+accuracy: 0.8515254739336493
+Iteration:5500  Loss:tensor(0.3341, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 6
+loss: 0.433382558676092
+accuracy: 0.8625222156398105
+Iteration:6000  Loss:tensor(0.1837, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:6500  Loss:tensor(0.3939, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 7
+loss: 0.40146438032388687
+accuracy: 0.8720255726698263
+Iteration:7000  Loss:tensor(0.5894, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:7500  Loss:tensor(0.2582, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 8
+loss: 0.38217188451456796
+accuracy: 0.8789741311216429
+Iteration:8000  Loss:tensor(0.2183, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 9
+loss: 0.365068284653445
+accuracy: 0.883306180884676
+Iteration:8500  Loss:tensor(0.2808, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:9000  Loss:tensor(0.5637, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 10
+loss: 0.34688281274943555
+accuracy: 0.8881319115323855
+Iteration:9500  Loss:tensor(0.1782, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:10000  Loss:tensor(0.1574, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 11
+loss: 0.3344694929885991
+accuracy: 0.8952656003159557
+Iteration:10500  Loss:tensor(0.3172, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 12
+loss: 0.31649636202690445
+accuracy: 0.8996840442338073
+Iteration:11000  Loss:tensor(0.2112, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:11500  Loss:tensor(0.1410, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 13
+loss: 0.30517279370401
+accuracy: 0.9035100710900474
+Iteration:12000  Loss:tensor(0.2203, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:12500  Loss:tensor(0.3146, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 14
+loss: 0.2884479531779956
+accuracy: 0.9099279225908372
+Iteration:13000  Loss:tensor(0.1520, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:13500  Loss:tensor(0.3119, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 15
+loss: 0.27771781414076335
+accuracy: 0.9114953593996841
+Iteration:14000  Loss:tensor(0.3166, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 16
+loss: 0.2676594663031788
+accuracy: 0.9144327606635071
+Iteration:14500  Loss:tensor(0.3342, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:15000  Loss:tensor(0.2754, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 17
+loss: 0.259269376113234
+accuracy: 0.9174565560821485
+Iteration:15500  Loss:tensor(0.1679, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:16000  Loss:tensor(0.3346, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 18
+loss: 0.24819531874792977
+accuracy: 0.9222452606635071
+Iteration:16500  Loss:tensor(0.3463, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 19
+loss: 0.23594848181549194
+accuracy: 0.9252443720379147
+Iteration:17000  Loss:tensor(0.2940, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:17500  Loss:tensor(0.2780, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 20
+loss: 0.22764078756105774
+accuracy: 0.9286137440758294
+Iteration:18000  Loss:tensor(0.2486, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18500  Loss:tensor(0.1204, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 21
+loss: 0.2109805151281693
+accuracy: 0.9345749407582938
+Iteration:19000  Loss:tensor(0.1983, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 22
+loss: 0.20283638217411407
+accuracy: 0.9355129344391785
+Iteration:19500  Loss:tensor(0.1259, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:20000  Loss:tensor(0.0613, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 23
+loss: 0.1955825902501748
+accuracy: 0.937882602685624
+Iteration:20500  Loss:tensor(0.1377, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:21000  Loss:tensor(0.1188, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 24
+loss: 0.18900049512905745
+accuracy: 0.9376357622432859
+Iteration:21500  Loss:tensor(0.2388, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 25
+loss: 0.17727049347013235
+accuracy: 0.9431526461295419
+Iteration:22000  Loss:tensor(0.0591, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:22500  Loss:tensor(0.2636, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 26
+loss: 0.1663179481920667
+accuracy: 0.9479290086887836
+Iteration:23000  Loss:tensor(0.2490, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23500  Loss:tensor(0.2830, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 27
+loss: 0.16758056966835078
+accuracy: 0.9475587480252765
+Iteration:24000  Loss:tensor(0.1678, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 28
+loss: 0.1460381553252338
+accuracy: 0.9544826224328594
+Iteration:24500  Loss:tensor(0.2388, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:25000  Loss:tensor(0.1594, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 29
+loss: 0.15059350461420995
+accuracy: 0.9531620260663507
+Iteration:25500  Loss:tensor(0.1253, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:26000  Loss:tensor(0.0491, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 30
+loss: 0.07852210276053945
+accuracy: 0.9764143957345972
+Iteration:26500  Loss:tensor(0.0979, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:27000  Loss:tensor(0.0227, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 31
+loss: 0.04683323337263935
+accuracy: 0.9876456358609794
+Iteration:27500  Loss:tensor(0.0077, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 32
+loss: 0.033203410235469744
+accuracy: 0.9914469786729858
+Iteration:28000  Loss:tensor(0.0213, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:28500  Loss:tensor(0.0988, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 33
+loss: 0.025181882406868507
+accuracy: 0.9937796208530806
+Iteration:29000  Loss:tensor(0.0335, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:29500  Loss:tensor(0.0144, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 34
+loss: 0.019021802479086743
+accuracy: 0.9961863151658767
+Iteration:30000  Loss:tensor(0.0176, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 35
+loss: 0.01703705219179502
+accuracy: 0.9964454976303317
+Iteration:30500  Loss:tensor(0.0259, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:31000  Loss:tensor(0.0240, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 36
+loss: 0.01534586182025248
+accuracy: 0.996926836492891
+Iteration:31500  Loss:tensor(0.0076, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:32000  Loss:tensor(0.0016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 37
+loss: 0.012861860105938884
+accuracy: 0.997580963665087
+Iteration:32500  Loss:tensor(0.0051, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 38
+loss: 0.011530867969491453
+accuracy: 0.9978895142180095
+Iteration:33000  Loss:tensor(0.0078, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:33500  Loss:tensor(0.0066, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 39
+loss: 0.009205888175326664
+accuracy: 0.998333827014218
+Iteration:34000  Loss:tensor(0.0287, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:34500  Loss:tensor(0.0032, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 40
+loss: 0.008706049069001392
+accuracy: 0.9987411137440758
+Iteration:35000  Loss:tensor(0.0039, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 41
+loss: 0.008366987150357219
+accuracy: 0.998593009478673
+Iteration:35500  Loss:tensor(0.0033, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:36000  Loss:tensor(0.0012, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 42
+loss: 0.006909828701070885
+accuracy: 0.9992965047393365
+Iteration:36500  Loss:tensor(0.0031, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:37000  Loss:tensor(0.0084, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 43
+loss: 0.006765798999242688
+accuracy: 0.9992594786729858
+Iteration:37500  Loss:tensor(0.0071, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 44
+loss: 0.00582483530719599
+accuracy: 0.9994075829383886
+Iteration:38000  Loss:tensor(0.0031, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:38500  Loss:tensor(0.0083, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 45
+loss: 0.005319295403458204
+accuracy: 0.9994075829383886
+Iteration:39000  Loss:tensor(0.0019, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:39500  Loss:tensor(0.0015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 46
+loss: 0.004958738159165956
+accuracy: 0.9994446090047393
+Iteration:40000  Loss:tensor(0.0027, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:40500  Loss:tensor(0.0017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 47
+loss: 0.005080991724899957
+accuracy: 0.9993335308056872
+Iteration:41000  Loss:tensor(0.0030, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 48
+loss: 0.0044582521261385824
+accuracy: 0.9995927132701422
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+echo: 0
+loss: 1.0954582631870469
+accuracy: 0.620578029790115
+Iteration:500  Loss:tensor(1.0131, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(72, device='cuda:0')
+echo: 1
+loss: 0.7276678295779567
+accuracy: 0.7484660629654705
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1            [-1, 1, 32, 32]               1
+            Conv2d-2           [-1, 64, 32, 32]             576
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+            Conv2d-5           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-6           [-1, 64, 32, 32]             128
+              ReLU-7           [-1, 64, 32, 32]               0
+            Conv2d-8           [-1, 64, 32, 32]          36,864
+       BatchNorm2d-9           [-1, 64, 32, 32]             128
+    ResidualBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+           Conv2d-14           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-15           [-1, 64, 32, 32]             128
+    ResidualBlock-16           [-1, 64, 32, 32]               0
+           Conv2d-17          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-18          [-1, 128, 16, 16]             256
+             ReLU-19          [-1, 128, 16, 16]               0
+           Conv2d-20          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-21          [-1, 128, 16, 16]             256
+           Conv2d-22          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-23          [-1, 128, 16, 16]             256
+    ResidualBlock-24          [-1, 128, 16, 16]               0
+           Conv2d-25          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-26          [-1, 128, 16, 16]             256
+             ReLU-27          [-1, 128, 16, 16]               0
+           Conv2d-28          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-29          [-1, 128, 16, 16]             256
+    ResidualBlock-30          [-1, 128, 16, 16]               0
+           Conv2d-31            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-32            [-1, 256, 8, 8]             512
+             ReLU-33            [-1, 256, 8, 8]               0
+           Conv2d-34            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-35            [-1, 256, 8, 8]             512
+           Conv2d-36            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-37            [-1, 256, 8, 8]             512
+    ResidualBlock-38            [-1, 256, 8, 8]               0
+           Conv2d-39            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-40            [-1, 256, 8, 8]             512
+             ReLU-41            [-1, 256, 8, 8]               0
+           Conv2d-42            [-1, 256, 8, 8]         589,824
+      BatchNorm2d-43            [-1, 256, 8, 8]             512
+    ResidualBlock-44            [-1, 256, 8, 8]               0
+           Conv2d-45            [-1, 512, 4, 4]       1,179,648
+      BatchNorm2d-46            [-1, 512, 4, 4]           1,024
+             ReLU-47            [-1, 512, 4, 4]               0
+           Conv2d-48            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-49            [-1, 512, 4, 4]           1,024
+           Conv2d-50            [-1, 512, 4, 4]         131,072
+      BatchNorm2d-51            [-1, 512, 4, 4]           1,024
+    ResidualBlock-52            [-1, 512, 4, 4]               0
+           Conv2d-53            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-54            [-1, 512, 4, 4]           1,024
+             ReLU-55            [-1, 512, 4, 4]               0
+           Conv2d-56            [-1, 512, 4, 4]       2,359,296
+      BatchNorm2d-57            [-1, 512, 4, 4]           1,024
+    ResidualBlock-58            [-1, 512, 4, 4]               0
+           Linear-59                 [-1, 4096]       2,101,248
+      BatchNorm1d-60                 [-1, 4096]           8,192
+          Dropout-61                 [-1, 4096]               0
+           Linear-62                  [-1, 256]       1,048,832
+      BatchNorm1d-63                  [-1, 256]             512
+          Dropout-64                  [-1, 256]               0
+           Linear-65                   [-1, 10]           2,570
+================================================================
+Total params: 14,329,035
+Trainable params: 14,329,035
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 13.73
+Params size (MB): 54.66
+Estimated Total Size (MB): 68.40
+----------------------------------------------------------------
+echo: 0
+loss: 1.0373564195858924
+accuracy: 0.6244446090047393
+Iteration:500  Loss:tensor(0.6047, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(77, device='cuda:0')
+echo: 1
+loss: 0.7327027999535556
+accuracy: 0.7472600710900474
+Iteration:1000  Loss:tensor(0.6593, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+echo: 2
+loss: 0.6481140040532107
+accuracy: 0.7815303402166554
+Iteration:1500  Loss:tensor(0.7980, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+echo: 3
+loss: 0.5978666994526488
+accuracy: 0.7996466655382531
+Iteration:2000  Loss:tensor(0.5567, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+echo: 4
+loss: 0.5484167547870021
+accuracy: 0.8160650812457684
+Iteration:2500  Loss:tensor(0.3909, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 5
+loss: 0.5238207531695682
+accuracy: 0.8271676117129316
+echo: 6
+loss: 0.4961336383251782
+accuracy: 0.8380003808395396
+Iteration:3000  Loss:tensor(0.5730, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+echo: 7
+loss: 0.4773503325491155
+accuracy: 0.8428243483412322
+Iteration:3500  Loss:tensor(0.5325, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 8
+loss: 0.4574770883996905
+accuracy: 0.8504781651997292
+Iteration:4000  Loss:tensor(0.3074, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 9
+loss: 0.44072322194327673
+accuracy: 0.8572486459038592
+Iteration:4500  Loss:tensor(0.4766, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 10
+loss: 0.4229688927601864
+accuracy: 0.8652727234258633
+Iteration:5000  Loss:tensor(0.4200, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 11
+loss: 0.4145412570068622
+accuracy: 0.866986501354096
+echo: 12
+loss: 0.39868885617685546
+accuracy: 0.8710858158429249
+Iteration:5500  Loss:tensor(0.5714, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 13
+loss: 0.39209090953613346
+accuracy: 0.8729265402843602
+Iteration:6000  Loss:tensor(0.3210, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 14
+loss: 0.37949930258554304
+accuracy: 0.8772956161137441
+Iteration:6500  Loss:tensor(0.4123, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 15
+loss: 0.38129142156285695
+accuracy: 0.8747831330399459
+Iteration:7000  Loss:tensor(0.3648, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 16
+loss: 0.3655292253711777
+accuracy: 0.8814107989167231
+Iteration:7500  Loss:tensor(0.1895, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 17
+loss: 0.3586117129296206
+accuracy: 0.8854254823967501
+Iteration:8000  Loss:tensor(0.2589, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 18
+loss: 0.3517249750582528
+accuracy: 0.8877369668246445
+echo: 19
+loss: 0.339295220459807
+accuracy: 0.8911856804333108
+Iteration:8500  Loss:tensor(0.2571, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 20
+loss: 0.33718900656177536
+accuracy: 0.8906514471902506
+Iteration:9000  Loss:tensor(0.2338, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 21
+loss: 0.32874861755077306
+accuracy: 0.8956235189573459
+Iteration:9500  Loss:tensor(0.1999, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 22
+loss: 0.32508972474325326
+accuracy: 0.8967078537576167
+Iteration:10000  Loss:tensor(0.5229, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 23
+loss: 0.32098334964135244
+accuracy: 0.8957874915368992
+Iteration:10500  Loss:tensor(0.4662, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 24
+loss: 0.31404589448494935
+accuracy: 0.899008759309411
+echo: 25
+loss: 0.3056832681546844
+accuracy: 0.9017592670954638
+Iteration:11000  Loss:tensor(0.3232, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 26
+loss: 0.30678933590509316
+accuracy: 0.9028277335815843
+Iteration:11500  Loss:tensor(0.3427, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 27
+loss: 0.2975249742444658
+accuracy: 0.904266460731212
+Iteration:12000  Loss:tensor(0.1769, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 28
+loss: 0.2941075551072003
+accuracy: 0.9058956076506433
+Iteration:12500  Loss:tensor(0.1718, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 29
+loss: 0.2871913430920992
+accuracy: 0.9071968094109681
+Iteration:13000  Loss:tensor(0.1855, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 30
+loss: 0.2250385454445371
+accuracy: 0.9284815081245769
+Iteration:13500  Loss:tensor(0.2040, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 31
+loss: 0.20549185438108106
+accuracy: 0.9353260409614083
+echo: 32
+loss: 0.1970878947985257
+accuracy: 0.9376428148273527
+Iteration:14000  Loss:tensor(0.0954, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 33
+loss: 0.1873197355506262
+accuracy: 0.9422869414353419
+Iteration:14500  Loss:tensor(0.1759, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 34
+loss: 0.1742530927167967
+accuracy: 0.9464867552471226
+Iteration:15000  Loss:tensor(0.2139, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 35
+loss: 0.1709440728711291
+accuracy: 0.9471532244414353
+Iteration:15500  Loss:tensor(0.1155, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 36
+loss: 0.16925579371257415
+accuracy: 0.9468570159106297
+Iteration:16000  Loss:tensor(0.1418, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 37
+loss: 0.16184186962349295
+accuracy: 0.9493324729180771
+echo: 38
+loss: 0.15519809330950415
+accuracy: 0.9508452522004063
+Iteration:16500  Loss:tensor(0.1102, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 39
+loss: 0.15588621723231688
+accuracy: 0.95052259647935
+Iteration:17000  Loss:tensor(0.1673, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 40
+loss: 0.14529990464431272
+accuracy: 0.9552989590385917
+Iteration:17500  Loss:tensor(0.0894, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 41
+loss: 0.13981425199410502
+accuracy: 0.9562140318212593
+Iteration:18000  Loss:tensor(0.0617, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 42
+loss: 0.13834353780011996
+accuracy: 0.9584461746784022
+Iteration:18500  Loss:tensor(0.1662, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 43
+loss: 0.12971877622290104
+accuracy: 0.9611173408937034
+echo: 44
+loss: 0.13088752037152576
+accuracy: 0.9596627454299255
+Iteration:19000  Loss:tensor(0.1059, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 45
+loss: 0.12371487471041097
+accuracy: 0.9615881008801624
+Iteration:19500  Loss:tensor(0.1095, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 46
+loss: 0.12256748144519272
+accuracy: 0.9627464878131347
+Iteration:20000  Loss:tensor(0.1182, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 47
+loss: 0.11823040054519594
+accuracy: 0.9638149542992552
+Iteration:20500  Loss:tensor(0.0514, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 48
+loss: 0.11294250061594267
+accuracy: 0.9644867129316181
+Iteration:21000  Loss:tensor(0.1381, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 49
+loss: 0.10969474088727227
+accuracy: 0.9658460985104942
+Iteration:21500  Loss:tensor(0.0310, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 50
+loss: 0.11021410151918846
+accuracy: 0.9654758378469871
+echo: 51
+loss: 0.10358769750725742
+accuracy: 0.9687076844955991
+Iteration:22000  Loss:tensor(0.1047, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 52
+loss: 0.09785137223344631
+accuracy: 0.9703262525389302
+Iteration:22500  Loss:tensor(0.0645, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 53
+loss: 0.09820952952367153
+accuracy: 0.9704796462423833
+Iteration:23000  Loss:tensor(0.1515, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 54
+loss: 0.09662398064765038
+accuracy: 0.9702151743398781
+Iteration:23500  Loss:tensor(0.1003, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 55
+loss: 0.09362316367291444
+accuracy: 0.9700723595125255
+Iteration:24000  Loss:tensor(0.0630, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 56
+loss: 0.09130408471092688
+accuracy: 0.9708234597156398
+echo: 57
+loss: 0.08583073591001296
+accuracy: 0.973595125253893
+Iteration:24500  Loss:tensor(0.0406, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 58
+loss: 0.08664092746832501
+accuracy: 0.9731825490859851
+Iteration:25000  Loss:tensor(0.0322, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 59
+loss: 0.0839884330836341
+accuracy: 0.9746265656736629
+Iteration:25500  Loss:tensor(0.0507, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 60
+loss: 0.06785839980896298
+accuracy: 0.9796197951929586
+Iteration:26000  Loss:tensor(0.0521, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 61
+loss: 0.06385950154461567
+accuracy: 0.9810743906567365
+Iteration:26500  Loss:tensor(0.0665, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 62
+loss: 0.06165048192471478
+accuracy: 0.9818942535545023
+Iteration:27000  Loss:tensor(0.0312, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')
+echo: 63
+loss: 0.05797047891667316
+accuracy: 0.9835445582261341
+echo: 64
+loss: 0.05544770257525428
+accuracy: 0.9837455568720379
+Iteration:27500  Loss:tensor(0.1308, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(91, device='cuda:0')

@@ -1,0 +1,1717 @@
+*********batch_size= 32 ,num_epoch= 20 *********
+Iteration:500  Loss:tensor(0.7625, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(75, device='cuda:0')
+Iteration:1000  Loss:tensor(1.1664, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(78, device='cuda:0')
+Iteration:1500  Loss:tensor(0.8459, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+Iteration:2000  Loss:tensor(1.1783, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+Iteration:2500  Loss:tensor(0.6114, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+Iteration:3000  Loss:tensor(0.5511, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:3500  Loss:tensor(0.4296, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:4000  Loss:tensor(0.4337, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:4500  Loss:tensor(0.5214, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:5000  Loss:tensor(0.6795, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+echo: 0
+loss: 0.7513640959249192
+accuracy: 0.7224841990914478
+Iteration:5500  Loss:tensor(0.5420, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:6000  Loss:tensor(0.5241, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:6500  Loss:tensor(0.6497, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:7000  Loss:tensor(0.6084, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:7500  Loss:tensor(0.4865, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:8000  Loss:tensor(0.4765, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:8500  Loss:tensor(0.8187, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:9000  Loss:tensor(0.6389, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:9500  Loss:tensor(0.7897, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:10000  Loss:tensor(0.6614, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 1
+loss: 0.547537948296825
+accuracy: 0.7986433438672723
+Iteration:10500  Loss:tensor(0.6383, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:11000  Loss:tensor(0.5733, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:11500  Loss:tensor(0.3382, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12000  Loss:tensor(0.4925, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12500  Loss:tensor(0.7681, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:13000  Loss:tensor(0.4801, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:13500  Loss:tensor(0.4251, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:14000  Loss:tensor(0.2794, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:14500  Loss:tensor(0.4828, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:15000  Loss:tensor(0.2863, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 2
+loss: 0.5012181949679051
+accuracy: 0.8158083152281256
+Iteration:15500  Loss:tensor(0.5080, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:16000  Loss:tensor(0.3729, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16500  Loss:tensor(0.4546, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17000  Loss:tensor(0.3883, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:17500  Loss:tensor(0.5384, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18000  Loss:tensor(0.2918, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18500  Loss:tensor(0.5700, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:19000  Loss:tensor(0.3529, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:19500  Loss:tensor(0.6248, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:20000  Loss:tensor(0.1470, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 3
+loss: 0.45391475695343375
+accuracy: 0.8334917539008493
+Iteration:20500  Loss:tensor(0.5279, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:21000  Loss:tensor(0.5629, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21500  Loss:tensor(0.6145, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:22000  Loss:tensor(0.4305, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22500  Loss:tensor(0.3612, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23000  Loss:tensor(0.4596, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23500  Loss:tensor(0.5552, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:24000  Loss:tensor(0.4046, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:24500  Loss:tensor(0.5139, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:25000  Loss:tensor(0.2916, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 4
+loss: 0.42687018128980553
+accuracy: 0.8429105767331622
+Iteration:25500  Loss:tensor(0.4637, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:26000  Loss:tensor(0.4838, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:26500  Loss:tensor(0.6009, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:27000  Loss:tensor(0.3699, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27500  Loss:tensor(0.4740, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28000  Loss:tensor(0.5861, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28500  Loss:tensor(0.5803, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29000  Loss:tensor(0.5135, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29500  Loss:tensor(0.3849, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:30000  Loss:tensor(0.3765, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 5
+loss: 0.40815582014833685
+accuracy: 0.8497926130752518
+Iteration:30500  Loss:tensor(0.2810, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31000  Loss:tensor(0.6329, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31500  Loss:tensor(0.3642, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32000  Loss:tensor(0.4282, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32500  Loss:tensor(0.5002, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33000  Loss:tensor(0.3636, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33500  Loss:tensor(0.3410, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:34000  Loss:tensor(0.3983, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:34500  Loss:tensor(0.6872, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:35000  Loss:tensor(0.4234, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 6
+loss: 0.3921355899734599
+accuracy: 0.855255036539601
+Iteration:35500  Loss:tensor(0.3526, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36000  Loss:tensor(0.4367, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36500  Loss:tensor(0.2643, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:37000  Loss:tensor(0.4921, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:37500  Loss:tensor(0.2067, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:38000  Loss:tensor(0.2493, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:38500  Loss:tensor(0.4429, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:39000  Loss:tensor(0.2228, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:39500  Loss:tensor(0.2965, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40000  Loss:tensor(0.5340, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40500  Loss:tensor(0.4502, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 7
+loss: 0.3778574404428299
+accuracy: 0.8612112383962078
+Iteration:41000  Loss:tensor(0.2742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:41500  Loss:tensor(0.3203, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:42000  Loss:tensor(0.6088, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:42500  Loss:tensor(0.5097, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:43000  Loss:tensor(0.5630, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:43500  Loss:tensor(0.4399, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:44000  Loss:tensor(0.2513, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:44500  Loss:tensor(0.2219, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:45000  Loss:tensor(0.3694, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45500  Loss:tensor(0.5967, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 8
+loss: 0.37340271795058516
+accuracy: 0.8628715682401739
+Iteration:46000  Loss:tensor(0.1801, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:46500  Loss:tensor(0.2288, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:47000  Loss:tensor(0.4254, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:47500  Loss:tensor(0.4395, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:48000  Loss:tensor(0.4902, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48500  Loss:tensor(0.5373, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:49000  Loss:tensor(0.5291, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:49500  Loss:tensor(0.4389, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50000  Loss:tensor(0.4358, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50500  Loss:tensor(0.3520, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 9
+loss: 0.3560991737106419
+accuracy: 0.8696918822832312
+Iteration:51000  Loss:tensor(0.2955, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:51500  Loss:tensor(0.4062, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52000  Loss:tensor(0.4994, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:52500  Loss:tensor(0.1657, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:53000  Loss:tensor(0.1750, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:53500  Loss:tensor(0.2839, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54000  Loss:tensor(0.6070, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54500  Loss:tensor(0.2585, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55000  Loss:tensor(0.3278, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55500  Loss:tensor(0.2238, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 10
+loss: 0.350172331974237
+accuracy: 0.8713028342879715
+Iteration:56000  Loss:tensor(0.5634, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:56500  Loss:tensor(0.1932, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:57000  Loss:tensor(0.3369, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:57500  Loss:tensor(0.3989, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:58000  Loss:tensor(0.3540, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58500  Loss:tensor(0.1239, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59000  Loss:tensor(0.2241, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59500  Loss:tensor(0.3392, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60000  Loss:tensor(0.1651, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60500  Loss:tensor(0.1726, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 11
+loss: 0.3368073116731154
+accuracy: 0.8760863124629666
+Iteration:61000  Loss:tensor(0.2133, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:61500  Loss:tensor(0.3021, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62000  Loss:tensor(0.2047, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62500  Loss:tensor(0.2798, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:63000  Loss:tensor(0.4642, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:63500  Loss:tensor(0.1832, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:64000  Loss:tensor(0.3064, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64500  Loss:tensor(0.4417, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65000  Loss:tensor(0.3485, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65500  Loss:tensor(0.1656, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 12
+loss: 0.33139459735233984
+accuracy: 0.8775676476397393
+Iteration:66000  Loss:tensor(0.3250, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:66500  Loss:tensor(0.3819, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67000  Loss:tensor(0.2141, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67500  Loss:tensor(0.3538, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68000  Loss:tensor(0.4149, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68500  Loss:tensor(0.3071, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69000  Loss:tensor(0.1441, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69500  Loss:tensor(0.1045, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:70000  Loss:tensor(0.4992, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70500  Loss:tensor(0.2083, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 13
+loss: 0.3252113582560862
+accuracy: 0.8806722792810586
+Iteration:71000  Loss:tensor(0.3441, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:71500  Loss:tensor(0.3789, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72000  Loss:tensor(0.3980, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72500  Loss:tensor(0.2184, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73000  Loss:tensor(0.1988, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73500  Loss:tensor(0.2175, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74000  Loss:tensor(0.2624, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74500  Loss:tensor(0.0946, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75000  Loss:tensor(0.3169, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75500  Loss:tensor(0.2168, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 14
+loss: 0.3182294489074526
+accuracy: 0.8835361939561525
+Iteration:76000  Loss:tensor(0.2332, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:76500  Loss:tensor(0.2691, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77000  Loss:tensor(0.3522, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77500  Loss:tensor(0.5719, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:78000  Loss:tensor(0.2067, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:78500  Loss:tensor(0.1315, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79000  Loss:tensor(0.6084, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79500  Loss:tensor(0.1192, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80000  Loss:tensor(0.3617, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:80500  Loss:tensor(0.4126, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:81000  Loss:tensor(0.2988, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 15
+loss: 0.31473094122802553
+accuracy: 0.8850483902824412
+Iteration:81500  Loss:tensor(0.3797, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:82000  Loss:tensor(0.3613, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:82500  Loss:tensor(0.6130, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83000  Loss:tensor(0.4108, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83500  Loss:tensor(0.3468, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:84000  Loss:tensor(0.1368, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84500  Loss:tensor(0.2813, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85000  Loss:tensor(0.4732, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:85500  Loss:tensor(0.4959, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:86000  Loss:tensor(0.4834, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 16
+loss: 0.3131458132623237
+accuracy: 0.88565944104286
+Iteration:86500  Loss:tensor(0.3208, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87000  Loss:tensor(0.2898, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87500  Loss:tensor(0.4667, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:88000  Loss:tensor(0.3536, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:88500  Loss:tensor(0.3285, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89000  Loss:tensor(0.3375, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:89500  Loss:tensor(0.2501, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90000  Loss:tensor(0.3888, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90500  Loss:tensor(0.1100, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:91000  Loss:tensor(0.4367, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 17
+loss: 0.3019199874248402
+accuracy: 0.8886900059253408
+Iteration:91500  Loss:tensor(0.2025, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:92000  Loss:tensor(0.2186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:92500  Loss:tensor(0.2647, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93000  Loss:tensor(0.4217, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93500  Loss:tensor(0.4684, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:94000  Loss:tensor(0.1015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:94500  Loss:tensor(0.2290, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:95000  Loss:tensor(0.3530, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:95500  Loss:tensor(0.3403, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:96000  Loss:tensor(0.2273, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 18
+loss: 0.298417603852731
+accuracy: 0.8904922970570808
+Iteration:96500  Loss:tensor(0.2627, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97000  Loss:tensor(0.4828, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97500  Loss:tensor(0.3437, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98000  Loss:tensor(0.3221, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98500  Loss:tensor(0.3675, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:99000  Loss:tensor(0.2656, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:99500  Loss:tensor(0.5315, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:100000  Loss:tensor(0.4017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:100500  Loss:tensor(0.3453, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:101000  Loss:tensor(0.3647, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 19
+loss: 0.29348918576762534
+accuracy: 0.8925846829942722
+*********batch_size= 32 ,num_epoch= 30 *********
+Iteration:500  Loss:tensor(0.9512, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(76, device='cuda:0')
+Iteration:1000  Loss:tensor(1.0705, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(78, device='cuda:0')
+Iteration:1500  Loss:tensor(0.5385, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+Iteration:2000  Loss:tensor(0.6574, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+Iteration:2500  Loss:tensor(0.8959, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+Iteration:3000  Loss:tensor(0.4037, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+Iteration:3500  Loss:tensor(0.7598, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+Iteration:4000  Loss:tensor(0.6719, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:4500  Loss:tensor(0.5170, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:5000  Loss:tensor(0.5517, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+echo: 0
+loss: 0.7864000169557002
+accuracy: 0.7107446178155243
+Iteration:5500  Loss:tensor(0.4416, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:6000  Loss:tensor(1.0865, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:6500  Loss:tensor(0.7839, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:7000  Loss:tensor(0.6376, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:7500  Loss:tensor(0.3833, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:8000  Loss:tensor(0.5211, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:8500  Loss:tensor(0.4331, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:9000  Loss:tensor(0.5963, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:9500  Loss:tensor(0.5081, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:10000  Loss:tensor(0.4717, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 1
+loss: 0.5526266338389404
+accuracy: 0.7968163638159195
+Iteration:10500  Loss:tensor(0.2672, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:11000  Loss:tensor(0.4596, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:11500  Loss:tensor(0.5293, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12000  Loss:tensor(0.5973, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12500  Loss:tensor(0.3403, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:13000  Loss:tensor(0.9358, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:13500  Loss:tensor(0.6143, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:14000  Loss:tensor(0.4758, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:14500  Loss:tensor(0.3744, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:15000  Loss:tensor(0.7918, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 2
+loss: 0.49241429082306154
+accuracy: 0.8199313648034762
+Iteration:15500  Loss:tensor(0.5555, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16000  Loss:tensor(0.3362, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16500  Loss:tensor(0.5113, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17000  Loss:tensor(0.4740, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17500  Loss:tensor(0.2662, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:18000  Loss:tensor(0.6527, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18500  Loss:tensor(0.5841, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:19000  Loss:tensor(0.3425, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:19500  Loss:tensor(0.4285, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:20000  Loss:tensor(0.6355, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 3
+loss: 0.4606315798258419
+accuracy: 0.8315660181710448
+Iteration:20500  Loss:tensor(0.7085, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21000  Loss:tensor(0.4766, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21500  Loss:tensor(0.9442, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:22000  Loss:tensor(0.2191, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22500  Loss:tensor(0.4308, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23000  Loss:tensor(0.2955, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23500  Loss:tensor(0.3948, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:24000  Loss:tensor(0.6122, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:24500  Loss:tensor(0.2700, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:25000  Loss:tensor(0.3204, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 4
+loss: 0.42886492077856464
+accuracy: 0.8430093324116137
+Iteration:25500  Loss:tensor(0.5732, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:26000  Loss:tensor(0.2703, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:26500  Loss:tensor(0.1601, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27000  Loss:tensor(0.3139, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:27500  Loss:tensor(0.3860, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28000  Loss:tensor(0.4535, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28500  Loss:tensor(0.3660, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:29000  Loss:tensor(0.2841, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29500  Loss:tensor(0.2728, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:30000  Loss:tensor(0.5944, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 5
+loss: 0.4119814638855569
+accuracy: 0.8491013233260912
+Iteration:30500  Loss:tensor(0.1566, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31000  Loss:tensor(0.3157, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31500  Loss:tensor(0.4764, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32000  Loss:tensor(0.2953, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:32500  Loss:tensor(0.5109, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33000  Loss:tensor(0.2673, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33500  Loss:tensor(0.6090, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:34000  Loss:tensor(0.3784, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:34500  Loss:tensor(0.3733, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:35000  Loss:tensor(0.3120, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 6
+loss: 0.3897299848610225
+accuracy: 0.8563783823819869
+Iteration:35500  Loss:tensor(0.4997, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:36000  Loss:tensor(0.1837, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36500  Loss:tensor(0.4400, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:37000  Loss:tensor(0.2928, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:37500  Loss:tensor(0.3008, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:38000  Loss:tensor(0.3726, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:38500  Loss:tensor(0.4522, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:39000  Loss:tensor(0.4870, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:39500  Loss:tensor(0.1245, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:40000  Loss:tensor(0.4285, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40500  Loss:tensor(0.3220, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 7
+loss: 0.37558383957278507
+accuracy: 0.861019899269208
+Iteration:41000  Loss:tensor(0.4287, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:41500  Loss:tensor(0.3759, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:42000  Loss:tensor(0.5588, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:42500  Loss:tensor(0.4382, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:43000  Loss:tensor(0.2848, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:43500  Loss:tensor(0.2146, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:44000  Loss:tensor(0.4605, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:44500  Loss:tensor(0.7395, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:45000  Loss:tensor(0.1651, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:45500  Loss:tensor(0.1567, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 8
+loss: 0.3647464163426281
+accuracy: 0.8658095496741063
+Iteration:46000  Loss:tensor(0.2698, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:46500  Loss:tensor(0.4061, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:47000  Loss:tensor(0.3067, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:47500  Loss:tensor(0.5341, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:48000  Loss:tensor(0.4595, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48500  Loss:tensor(0.3804, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:49000  Loss:tensor(0.2932, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:49500  Loss:tensor(0.1591, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50000  Loss:tensor(0.4362, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:50500  Loss:tensor(0.3209, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 9
+loss: 0.3572588617222337
+accuracy: 0.8683833695437487
+Iteration:51000  Loss:tensor(0.1768, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:51500  Loss:tensor(0.4234, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52000  Loss:tensor(0.2898, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:52500  Loss:tensor(0.2736, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:53000  Loss:tensor(0.4682, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:53500  Loss:tensor(0.6775, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54000  Loss:tensor(0.2614, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:54500  Loss:tensor(0.3062, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:55000  Loss:tensor(0.5293, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:55500  Loss:tensor(0.6026, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 10
+loss: 0.3467899829284631
+accuracy: 0.8729137862927119
+Iteration:56000  Loss:tensor(0.2290, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:56500  Loss:tensor(0.3310, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:57000  Loss:tensor(0.5262, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:57500  Loss:tensor(0.4407, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58000  Loss:tensor(0.3271, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:58500  Loss:tensor(0.8167, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:59000  Loss:tensor(0.1288, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59500  Loss:tensor(0.3053, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60000  Loss:tensor(0.3941, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:60500  Loss:tensor(0.3563, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 11
+loss: 0.3457928393334121
+accuracy: 0.8734939759036144
+Iteration:61000  Loss:tensor(0.3871, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:61500  Loss:tensor(0.2863, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62000  Loss:tensor(0.2010, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62500  Loss:tensor(0.1056, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:63000  Loss:tensor(0.7511, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:63500  Loss:tensor(0.4212, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:64000  Loss:tensor(0.2880, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:64500  Loss:tensor(0.3582, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65000  Loss:tensor(0.2273, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65500  Loss:tensor(0.4072, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 12
+loss: 0.3490471589810736
+accuracy: 0.8716484791625518
+Iteration:66000  Loss:tensor(0.4185, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:66500  Loss:tensor(0.2036, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67000  Loss:tensor(0.4223, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67500  Loss:tensor(0.4596, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68000  Loss:tensor(0.1991, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68500  Loss:tensor(0.3423, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69000  Loss:tensor(0.2346, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69500  Loss:tensor(0.5935, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70000  Loss:tensor(0.4680, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70500  Loss:tensor(0.2250, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 13
+loss: 0.32407014894992875
+accuracy: 0.8799686450720916
+Iteration:71000  Loss:tensor(0.2601, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:71500  Loss:tensor(0.1397, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72000  Loss:tensor(0.4492, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72500  Loss:tensor(0.2700, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73000  Loss:tensor(0.2297, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73500  Loss:tensor(0.2722, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74000  Loss:tensor(0.2083, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74500  Loss:tensor(0.2270, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75000  Loss:tensor(0.4357, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75500  Loss:tensor(0.3117, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 14
+loss: 0.3200247883929134
+accuracy: 0.8820301698597669
+Iteration:76000  Loss:tensor(0.2373, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:76500  Loss:tensor(0.1924, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77000  Loss:tensor(0.4076, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77500  Loss:tensor(0.3446, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:78000  Loss:tensor(0.5224, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:78500  Loss:tensor(0.3231, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79000  Loss:tensor(0.1677, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79500  Loss:tensor(0.2408, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80000  Loss:tensor(0.2669, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80500  Loss:tensor(0.5501, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:81000  Loss:tensor(0.2642, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 15
+loss: 0.3149623777360495
+accuracy: 0.8835053328066363
+Iteration:81500  Loss:tensor(0.1672, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:82000  Loss:tensor(0.1739, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:82500  Loss:tensor(0.3365, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83000  Loss:tensor(0.4101, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83500  Loss:tensor(0.7244, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84000  Loss:tensor(0.2938, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84500  Loss:tensor(0.4432, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85000  Loss:tensor(0.2765, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85500  Loss:tensor(0.2742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:86000  Loss:tensor(0.5334, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 16
+loss: 0.3054538310580684
+accuracy: 0.8870481927710844
+Iteration:86500  Loss:tensor(0.5588, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87000  Loss:tensor(0.4262, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87500  Loss:tensor(0.8759, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:88000  Loss:tensor(0.1317, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:88500  Loss:tensor(0.5294, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89000  Loss:tensor(0.3323, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89500  Loss:tensor(0.2689, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90000  Loss:tensor(0.3815, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90500  Loss:tensor(0.2933, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:91000  Loss:tensor(0.1565, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 17
+loss: 0.30021267173119787
+accuracy: 0.8888381394430179
+Iteration:91500  Loss:tensor(0.1792, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:92000  Loss:tensor(0.4141, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:92500  Loss:tensor(0.4814, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93000  Loss:tensor(1.0937, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:93500  Loss:tensor(0.5243, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:94000  Loss:tensor(0.2742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:94500  Loss:tensor(0.3225, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:95000  Loss:tensor(0.1318, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:95500  Loss:tensor(0.3634, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:96000  Loss:tensor(0.5188, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 18
+loss: 0.29512492460317347
+accuracy: 0.8912699980248864
+Iteration:96500  Loss:tensor(0.3208, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97000  Loss:tensor(0.1479, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97500  Loss:tensor(0.1527, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98000  Loss:tensor(0.1346, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98500  Loss:tensor(0.4921, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:99000  Loss:tensor(0.2804, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:99500  Loss:tensor(0.3789, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:100000  Loss:tensor(0.5023, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:100500  Loss:tensor(0.1083, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:101000  Loss:tensor(0.2118, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 19
+loss: 0.2933829665469506
+accuracy: 0.8916897096583054
+Iteration:101500  Loss:tensor(0.1066, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:102000  Loss:tensor(0.3281, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:102500  Loss:tensor(0.3256, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:103000  Loss:tensor(0.1189, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:103500  Loss:tensor(0.2005, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:104000  Loss:tensor(0.1213, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:104500  Loss:tensor(0.3691, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:105000  Loss:tensor(0.2337, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:105500  Loss:tensor(0.3818, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:106000  Loss:tensor(0.1395, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 20
+loss: 0.28576506355546716
+accuracy: 0.894238840608335
+Iteration:106500  Loss:tensor(0.2202, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:107000  Loss:tensor(0.3500, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:107500  Loss:tensor(0.7648, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:108000  Loss:tensor(0.1567, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:108500  Loss:tensor(0.3451, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:109000  Loss:tensor(0.2743, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:109500  Loss:tensor(0.1166, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:110000  Loss:tensor(0.2517, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:110500  Loss:tensor(0.3072, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:111000  Loss:tensor(0.1456, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 21
+loss: 0.28417396800139666
+accuracy: 0.8956090756468497
+Iteration:111500  Loss:tensor(0.1813, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:112000  Loss:tensor(0.1704, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:112500  Loss:tensor(0.2254, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:113000  Loss:tensor(0.2942, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:113500  Loss:tensor(0.1530, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:114000  Loss:tensor(0.2586, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:114500  Loss:tensor(0.3911, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:115000  Loss:tensor(0.1719, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:115500  Loss:tensor(0.2530, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:116000  Loss:tensor(0.3884, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 22
+loss: 0.28280237082074855
+accuracy: 0.8958065870037527
+Iteration:116500  Loss:tensor(0.1115, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:117000  Loss:tensor(0.1900, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:117500  Loss:tensor(0.1978, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:118000  Loss:tensor(0.1305, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:118500  Loss:tensor(0.1489, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:119000  Loss:tensor(0.2903, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:119500  Loss:tensor(0.1724, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:120000  Loss:tensor(0.2586, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:120500  Loss:tensor(0.3368, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:121000  Loss:tensor(0.2100, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:121500  Loss:tensor(0.2007, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 23
+loss: 0.2725439758232971
+accuracy: 0.9001394923958128
+Iteration:122000  Loss:tensor(0.0774, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:122500  Loss:tensor(0.1186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:123000  Loss:tensor(0.5668, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:123500  Loss:tensor(0.6750, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:124000  Loss:tensor(0.1635, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:124500  Loss:tensor(0.1726, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:125000  Loss:tensor(0.3323, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:125500  Loss:tensor(0.1829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:126000  Loss:tensor(0.2315, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:126500  Loss:tensor(0.3630, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 24
+loss: 0.2709331973804425
+accuracy: 0.9005345151096188
+Iteration:127000  Loss:tensor(0.2206, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:127500  Loss:tensor(0.2399, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:128000  Loss:tensor(0.5175, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:128500  Loss:tensor(0.2987, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:129000  Loss:tensor(0.2617, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:129500  Loss:tensor(0.2393, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:130000  Loss:tensor(0.3037, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:130500  Loss:tensor(0.2960, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:131000  Loss:tensor(0.4916, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:131500  Loss:tensor(0.4140, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 25
+loss: 0.2690645785343381
+accuracy: 0.9007999209954572
+Iteration:132000  Loss:tensor(0.4599, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:132500  Loss:tensor(0.3557, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:133000  Loss:tensor(0.3536, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:133500  Loss:tensor(0.1532, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:134000  Loss:tensor(0.3289, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:134500  Loss:tensor(0.1697, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:135000  Loss:tensor(0.1396, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:135500  Loss:tensor(0.1249, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:136000  Loss:tensor(0.3237, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:136500  Loss:tensor(0.1771, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 26
+loss: 0.2654782478255574
+accuracy: 0.9024170452301007
+Iteration:137000  Loss:tensor(0.1930, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:137500  Loss:tensor(0.1775, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:138000  Loss:tensor(0.2312, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:138500  Loss:tensor(0.2147, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:139000  Loss:tensor(0.2868, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:139500  Loss:tensor(0.2607, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:140000  Loss:tensor(0.4910, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:140500  Loss:tensor(0.2778, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:141000  Loss:tensor(0.2915, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:141500  Loss:tensor(0.2423, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 27
+loss: 0.2630821203578609
+accuracy: 0.903830485877938
+Iteration:142000  Loss:tensor(0.1648, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:142500  Loss:tensor(0.2403, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:143000  Loss:tensor(0.2769, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:143500  Loss:tensor(0.1437, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:144000  Loss:tensor(0.2299, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:144500  Loss:tensor(0.0903, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:145000  Loss:tensor(0.2136, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:145500  Loss:tensor(0.1321, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:146000  Loss:tensor(0.6248, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:146500  Loss:tensor(0.2342, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 28
+loss: 0.25912920962603414
+accuracy: 0.905546365791033
+Iteration:147000  Loss:tensor(0.3329, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:147500  Loss:tensor(0.1503, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:148000  Loss:tensor(0.3283, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:148500  Loss:tensor(0.1616, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:149000  Loss:tensor(0.5365, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:149500  Loss:tensor(0.1959, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:150000  Loss:tensor(0.1782, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:150500  Loss:tensor(0.1794, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:151000  Loss:tensor(0.2666, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:151500  Loss:tensor(0.1841, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 29
+loss: 0.25459311445157756
+accuracy: 0.906756122852064
+*********batch_size= 32 ,num_epoch= 40 *********
+Iteration:500  Loss:tensor(0.9857, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(74, device='cuda:0')
+Iteration:1000  Loss:tensor(0.9597, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(76, device='cuda:0')
+Iteration:1500  Loss:tensor(0.9203, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+Iteration:2000  Loss:tensor(1.0128, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+Iteration:2500  Loss:tensor(0.8081, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+Iteration:3000  Loss:tensor(0.8659, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:3500  Loss:tensor(0.5279, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:4000  Loss:tensor(0.7303, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:4500  Loss:tensor(0.4886, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:5000  Loss:tensor(0.9065, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+echo: 0
+loss: 0.8763467663218093
+accuracy: 0.6780750049377839
+Iteration:5500  Loss:tensor(0.5127, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:6000  Loss:tensor(0.7870, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:6500  Loss:tensor(0.6788, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:7000  Loss:tensor(0.6361, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:7500  Loss:tensor(0.6404, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:8000  Loss:tensor(0.4793, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:8500  Loss:tensor(0.6527, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:9000  Loss:tensor(0.7402, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:9500  Loss:tensor(0.6422, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:10000  Loss:tensor(0.4004, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 1
+loss: 0.6080985875844767
+accuracy: 0.7772503950227138
+Iteration:10500  Loss:tensor(0.4715, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:11000  Loss:tensor(0.4651, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:11500  Loss:tensor(0.7994, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:12000  Loss:tensor(0.3660, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:12500  Loss:tensor(0.5721, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:13000  Loss:tensor(0.5853, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:13500  Loss:tensor(0.3353, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:14000  Loss:tensor(0.4491, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:14500  Loss:tensor(0.3925, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:15000  Loss:tensor(0.2312, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 2
+loss: 0.5205795673670774
+accuracy: 0.8087966620580683
+Iteration:15500  Loss:tensor(0.6860, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:16000  Loss:tensor(0.5217, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16500  Loss:tensor(0.4262, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:17000  Loss:tensor(0.2624, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17500  Loss:tensor(0.1916, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18000  Loss:tensor(0.3706, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18500  Loss:tensor(0.5243, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:19000  Loss:tensor(0.5101, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:19500  Loss:tensor(0.4741, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:20000  Loss:tensor(0.4329, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 3
+loss: 0.4687910471468393
+accuracy: 0.8284860754493384
+Iteration:20500  Loss:tensor(0.4166, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21000  Loss:tensor(0.4491, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21500  Loss:tensor(0.2823, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22000  Loss:tensor(0.3850, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22500  Loss:tensor(0.4460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23000  Loss:tensor(0.1830, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:23500  Loss:tensor(0.5989, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:24000  Loss:tensor(0.2756, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:24500  Loss:tensor(0.4587, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:25000  Loss:tensor(0.3487, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 4
+loss: 0.4420779923805954
+accuracy: 0.8379481038909737
+Iteration:25500  Loss:tensor(0.8239, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:26000  Loss:tensor(0.4666, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:26500  Loss:tensor(0.4715, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27000  Loss:tensor(0.5188, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27500  Loss:tensor(0.3499, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28000  Loss:tensor(0.6247, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28500  Loss:tensor(0.5054, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29000  Loss:tensor(0.3173, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29500  Loss:tensor(0.2985, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:30000  Loss:tensor(0.1979, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 5
+loss: 0.4209630688615239
+accuracy: 0.8451264072684179
+Iteration:30500  Loss:tensor(0.3864, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:31000  Loss:tensor(0.3127, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31500  Loss:tensor(0.3159, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32000  Loss:tensor(0.3442, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32500  Loss:tensor(0.3518, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:33000  Loss:tensor(0.2645, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33500  Loss:tensor(0.5065, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:34000  Loss:tensor(0.4315, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:34500  Loss:tensor(0.2274, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:35000  Loss:tensor(0.2751, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 6
+loss: 0.40811368495626177
+accuracy: 0.8501197412601225
+Iteration:35500  Loss:tensor(0.5130, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:36000  Loss:tensor(0.4520, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36500  Loss:tensor(0.3974, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:37000  Loss:tensor(0.4011, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:37500  Loss:tensor(0.5487, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:38000  Loss:tensor(0.3431, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:38500  Loss:tensor(0.1979, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:39000  Loss:tensor(0.5311, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:39500  Loss:tensor(0.2877, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:40000  Loss:tensor(0.2820, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:40500  Loss:tensor(0.3462, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 7
+loss: 0.3838190763464752
+accuracy: 0.85910650799921
+Iteration:41000  Loss:tensor(0.2308, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:41500  Loss:tensor(0.7231, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:42000  Loss:tensor(0.2732, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:42500  Loss:tensor(0.3504, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:43000  Loss:tensor(0.5360, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:43500  Loss:tensor(0.3135, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:44000  Loss:tensor(0.6765, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:44500  Loss:tensor(0.3700, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45000  Loss:tensor(0.2785, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45500  Loss:tensor(0.5865, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 8
+loss: 0.3723768863680568
+accuracy: 0.8640751530713016
+Iteration:46000  Loss:tensor(0.3481, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:46500  Loss:tensor(0.2821, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:47000  Loss:tensor(0.4268, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:47500  Loss:tensor(0.1299, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48000  Loss:tensor(0.2485, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48500  Loss:tensor(0.2890, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:49000  Loss:tensor(0.0933, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:49500  Loss:tensor(0.7751, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50000  Loss:tensor(0.1359, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:50500  Loss:tensor(0.2540, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 9
+loss: 0.361230409786373
+accuracy: 0.8665193561129765
+Iteration:51000  Loss:tensor(0.3856, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:51500  Loss:tensor(0.2785, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52000  Loss:tensor(0.3829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52500  Loss:tensor(0.3656, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:53000  Loss:tensor(0.4402, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:53500  Loss:tensor(0.2888, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54000  Loss:tensor(0.3114, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54500  Loss:tensor(0.4314, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55000  Loss:tensor(0.5068, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55500  Loss:tensor(0.4586, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 10
+loss: 0.3522293787142775
+accuracy: 0.8709633616432945
+Iteration:56000  Loss:tensor(0.3460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:56500  Loss:tensor(0.6156, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:57000  Loss:tensor(0.2446, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:57500  Loss:tensor(0.4966, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58000  Loss:tensor(0.4046, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58500  Loss:tensor(0.1799, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59000  Loss:tensor(0.5995, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59500  Loss:tensor(0.3242, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60000  Loss:tensor(0.4688, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60500  Loss:tensor(0.2849, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 11
+loss: 0.34036609282488645
+accuracy: 0.8754073671736124
+Iteration:61000  Loss:tensor(0.3051, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:61500  Loss:tensor(0.2870, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62000  Loss:tensor(0.5126, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62500  Loss:tensor(0.6488, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:63000  Loss:tensor(0.2927, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:63500  Loss:tensor(0.4022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64000  Loss:tensor(0.2624, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64500  Loss:tensor(0.3742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65000  Loss:tensor(0.6144, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65500  Loss:tensor(0.3089, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 12
+loss: 0.340138687815281
+accuracy: 0.8750555500691289
+Iteration:66000  Loss:tensor(0.2543, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:66500  Loss:tensor(0.4677, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:67000  Loss:tensor(0.3745, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67500  Loss:tensor(0.3068, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:68000  Loss:tensor(0.4280, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68500  Loss:tensor(0.2422, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69000  Loss:tensor(0.2870, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:69500  Loss:tensor(0.2470, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70000  Loss:tensor(0.2420, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70500  Loss:tensor(0.3672, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 13
+loss: 0.33156174192333465
+accuracy: 0.8782712818487063
+Iteration:71000  Loss:tensor(0.3030, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:71500  Loss:tensor(0.7120, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72000  Loss:tensor(0.7168, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72500  Loss:tensor(0.3437, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73000  Loss:tensor(0.2780, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73500  Loss:tensor(0.4540, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74000  Loss:tensor(0.2934, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74500  Loss:tensor(0.5455, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75000  Loss:tensor(0.2302, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75500  Loss:tensor(0.2845, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 14
+loss: 0.33001956440921876
+accuracy: 0.8796600335769307
+Iteration:76000  Loss:tensor(0.1633, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:76500  Loss:tensor(0.4332, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77000  Loss:tensor(0.2207, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77500  Loss:tensor(0.4431, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:78000  Loss:tensor(0.2990, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:78500  Loss:tensor(0.2469, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79000  Loss:tensor(0.2656, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79500  Loss:tensor(0.2514, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80000  Loss:tensor(0.2759, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80500  Loss:tensor(0.2599, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:81000  Loss:tensor(0.1951, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 15
+loss: 0.31827921529968056
+accuracy: 0.8828140430574758
+Iteration:81500  Loss:tensor(0.1720, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:82000  Loss:tensor(0.3640, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:82500  Loss:tensor(0.2035, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83000  Loss:tensor(0.2430, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:83500  Loss:tensor(0.2756, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84000  Loss:tensor(0.2756, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84500  Loss:tensor(0.2432, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85000  Loss:tensor(0.2923, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85500  Loss:tensor(0.3413, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:86000  Loss:tensor(0.1177, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 16
+loss: 0.3109622679043023
+accuracy: 0.8864618309302785
+Iteration:86500  Loss:tensor(0.4831, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87000  Loss:tensor(0.4663, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:87500  Loss:tensor(0.2489, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:88000  Loss:tensor(0.2324, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:88500  Loss:tensor(0.2869, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89000  Loss:tensor(0.2360, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:89500  Loss:tensor(0.4631, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90000  Loss:tensor(0.2562, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90500  Loss:tensor(0.0889, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:91000  Loss:tensor(0.1218, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 17
+loss: 0.3066381454856269
+accuracy: 0.8875481433932451
+Iteration:91500  Loss:tensor(0.1821, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:92000  Loss:tensor(0.4487, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:92500  Loss:tensor(0.4850, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:93000  Loss:tensor(0.2903, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93500  Loss:tensor(0.3097, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:94000  Loss:tensor(0.2872, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:94500  Loss:tensor(0.2884, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:95000  Loss:tensor(0.2283, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:95500  Loss:tensor(0.2248, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:96000  Loss:tensor(0.1744, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 18
+loss: 0.3001052423893711
+accuracy: 0.8904120580683389
+Iteration:96500  Loss:tensor(0.1487, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97000  Loss:tensor(0.4121, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:97500  Loss:tensor(0.1203, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:98000  Loss:tensor(0.3221, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:98500  Loss:tensor(0.2922, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:99000  Loss:tensor(0.3542, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:99500  Loss:tensor(0.1162, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:100000  Loss:tensor(0.2015, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:100500  Loss:tensor(0.1758, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:101000  Loss:tensor(0.2082, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 19
+loss: 0.2968811093421762
+accuracy: 0.8904614359075647
+Iteration:101500  Loss:tensor(0.3126, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:102000  Loss:tensor(0.3673, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:102500  Loss:tensor(0.2849, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:103000  Loss:tensor(0.1647, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:103500  Loss:tensor(0.3014, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:104000  Loss:tensor(0.1500, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:104500  Loss:tensor(0.3564, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:105000  Loss:tensor(0.2151, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:105500  Loss:tensor(0.0951, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:106000  Loss:tensor(0.2009, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 20
+loss: 0.2890672092216537
+accuracy: 0.8940042958720127
+Iteration:106500  Loss:tensor(0.2997, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:107000  Loss:tensor(0.4379, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:107500  Loss:tensor(0.4276, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:108000  Loss:tensor(0.3856, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:108500  Loss:tensor(0.5587, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:109000  Loss:tensor(0.1817, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:109500  Loss:tensor(0.1488, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:110000  Loss:tensor(0.3250, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:110500  Loss:tensor(0.3698, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:111000  Loss:tensor(0.3661, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 21
+loss: 0.2874641864800227
+accuracy: 0.8941894627691093
+Iteration:111500  Loss:tensor(0.1484, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:112000  Loss:tensor(0.4961, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:112500  Loss:tensor(0.3595, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:113000  Loss:tensor(0.5576, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:113500  Loss:tensor(0.3572, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:114000  Loss:tensor(0.1482, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:114500  Loss:tensor(0.1750, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:115000  Loss:tensor(0.3060, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:115500  Loss:tensor(0.2108, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:116000  Loss:tensor(0.1607, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 22
+loss: 0.28188914334599785
+accuracy: 0.8960473039699782
+Iteration:116500  Loss:tensor(0.4327, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:117000  Loss:tensor(0.4616, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:117500  Loss:tensor(0.1849, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:118000  Loss:tensor(0.3806, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:118500  Loss:tensor(0.5323, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:119000  Loss:tensor(0.4598, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:119500  Loss:tensor(0.1623, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:120000  Loss:tensor(0.2071, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:120500  Loss:tensor(0.9188, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:121000  Loss:tensor(0.5601, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:121500  Loss:tensor(0.2317, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 23
+loss: 0.28826876960175324
+accuracy: 0.894016640331819
+Iteration:122000  Loss:tensor(0.3562, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:122500  Loss:tensor(0.3123, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:123000  Loss:tensor(0.3512, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:123500  Loss:tensor(0.3198, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:124000  Loss:tensor(0.4457, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:124500  Loss:tensor(0.3255, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:125000  Loss:tensor(0.3438, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:125500  Loss:tensor(0.3460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:126000  Loss:tensor(0.2390, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:126500  Loss:tensor(0.2968, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 24
+loss: 0.2733067045352121
+accuracy: 0.9005283428797156
+Iteration:127000  Loss:tensor(0.2334, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:127500  Loss:tensor(0.4086, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:128000  Loss:tensor(0.1999, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:128500  Loss:tensor(0.3269, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:129000  Loss:tensor(0.5054, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:129500  Loss:tensor(0.3462, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:130000  Loss:tensor(0.2324, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:130500  Loss:tensor(0.1438, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:131000  Loss:tensor(0.7561, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:131500  Loss:tensor(0.2433, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 25
+loss: 0.27130869516130496
+accuracy: 0.9002752814536836
+Iteration:132000  Loss:tensor(0.1917, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:132500  Loss:tensor(0.2322, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:133000  Loss:tensor(0.2812, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:133500  Loss:tensor(0.2294, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:134000  Loss:tensor(0.1050, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:134500  Loss:tensor(0.5267, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:135000  Loss:tensor(0.2803, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:135500  Loss:tensor(0.4828, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:136000  Loss:tensor(0.0821, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:136500  Loss:tensor(0.4323, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 26
+loss: 0.2702921674011631
+accuracy: 0.9006332707880703
+Iteration:137000  Loss:tensor(0.4493, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:137500  Loss:tensor(0.3918, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:138000  Loss:tensor(0.6698, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:138500  Loss:tensor(0.4094, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:139000  Loss:tensor(0.3955, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:139500  Loss:tensor(0.1632, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:140000  Loss:tensor(0.3612, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:140500  Loss:tensor(0.3292, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:141000  Loss:tensor(0.5717, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:141500  Loss:tensor(0.3622, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 27
+loss: 0.26345631801020175
+accuracy: 0.9035835966818092
+Iteration:142000  Loss:tensor(0.3457, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:142500  Loss:tensor(0.1428, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:143000  Loss:tensor(0.1691, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:143500  Loss:tensor(0.4739, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:144000  Loss:tensor(0.1265, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:144500  Loss:tensor(0.2756, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:145000  Loss:tensor(0.3738, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:145500  Loss:tensor(0.1922, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:146000  Loss:tensor(0.0966, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:146500  Loss:tensor(0.3228, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 28
+loss: 0.2671799431061076
+accuracy: 0.9026269010468102
+Iteration:147000  Loss:tensor(0.2275, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:147500  Loss:tensor(0.2121, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:148000  Loss:tensor(0.3001, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:148500  Loss:tensor(0.2199, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:149000  Loss:tensor(0.1619, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:149500  Loss:tensor(0.4999, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:150000  Loss:tensor(0.2186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:150500  Loss:tensor(0.1775, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:151000  Loss:tensor(0.1510, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:151500  Loss:tensor(0.1686, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 29
+loss: 0.2655059314797736
+accuracy: 0.9021639838040687
+Iteration:152000  Loss:tensor(0.3147, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:152500  Loss:tensor(0.3688, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:153000  Loss:tensor(0.1828, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:153500  Loss:tensor(0.1189, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:154000  Loss:tensor(0.1703, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:154500  Loss:tensor(0.2650, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:155000  Loss:tensor(0.1238, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:155500  Loss:tensor(0.1554, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:156000  Loss:tensor(0.2171, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:156500  Loss:tensor(0.1744, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 30
+loss: 0.2596827675743864
+accuracy: 0.9048921094212917
+Iteration:157000  Loss:tensor(0.1748, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:157500  Loss:tensor(0.3077, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:158000  Loss:tensor(0.0930, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:158500  Loss:tensor(0.4533, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:159000  Loss:tensor(0.1872, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:159500  Loss:tensor(0.2604, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:160000  Loss:tensor(0.2246, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:160500  Loss:tensor(0.4248, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:161000  Loss:tensor(0.1778, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:161500  Loss:tensor(0.0778, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:162000  Loss:tensor(0.4328, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 31
+loss: 0.2592823000754642
+accuracy: 0.905182204226743
+Iteration:162500  Loss:tensor(0.1461, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:163000  Loss:tensor(0.2189, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:163500  Loss:tensor(0.2136, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:164000  Loss:tensor(0.1293, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:164500  Loss:tensor(0.3617, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:165000  Loss:tensor(0.3990, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:165500  Loss:tensor(0.1082, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:166000  Loss:tensor(0.2902, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:166500  Loss:tensor(0.2910, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:167000  Loss:tensor(0.3045, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 32
+loss: 0.25240602294388154
+accuracy: 0.9075399960497729
+Iteration:167500  Loss:tensor(0.1370, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:168000  Loss:tensor(0.2216, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:168500  Loss:tensor(0.2002, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:169000  Loss:tensor(0.2418, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:169500  Loss:tensor(0.4523, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:170000  Loss:tensor(0.2746, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:170500  Loss:tensor(0.2414, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:171000  Loss:tensor(0.1137, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:171500  Loss:tensor(0.3884, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:172000  Loss:tensor(0.0588, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 33
+loss: 0.24983899924501632
+accuracy: 0.9084411416156429
+Iteration:172500  Loss:tensor(0.0748, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:173000  Loss:tensor(0.4969, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:173500  Loss:tensor(0.3324, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:174000  Loss:tensor(0.5932, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:174500  Loss:tensor(0.1567, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:175000  Loss:tensor(0.2566, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:175500  Loss:tensor(0.4524, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:176000  Loss:tensor(0.0877, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:176500  Loss:tensor(0.1719, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:177000  Loss:tensor(0.2764, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 34
+loss: 0.2504397777135243
+accuracy: 0.9083794193166107
+Iteration:177500  Loss:tensor(0.3186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:178000  Loss:tensor(0.1832, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:178500  Loss:tensor(0.1426, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:179000  Loss:tensor(0.2261, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:179500  Loss:tensor(0.1218, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:180000  Loss:tensor(0.0983, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:180500  Loss:tensor(0.0906, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:181000  Loss:tensor(0.5164, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:181500  Loss:tensor(0.1844, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:182000  Loss:tensor(0.2083, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 35
+loss: 0.24336160486297317
+accuracy: 0.9107186944499309
+Iteration:182500  Loss:tensor(0.2363, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:183000  Loss:tensor(0.3380, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:183500  Loss:tensor(0.4064, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:184000  Loss:tensor(0.1210, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:184500  Loss:tensor(0.2247, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:185000  Loss:tensor(0.2241, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:185500  Loss:tensor(0.1252, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:186000  Loss:tensor(0.3624, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:186500  Loss:tensor(0.1899, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:187000  Loss:tensor(0.2942, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 36
+loss: 0.24304254777448442
+accuracy: 0.9106507999209954
+Iteration:187500  Loss:tensor(0.2995, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:188000  Loss:tensor(0.3004, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:188500  Loss:tensor(0.1388, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:189000  Loss:tensor(0.2888, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:189500  Loss:tensor(0.1446, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:190000  Loss:tensor(0.2351, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:190500  Loss:tensor(0.2216, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:191000  Loss:tensor(0.3829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:191500  Loss:tensor(0.1708, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:192000  Loss:tensor(0.2008, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 37
+loss: 0.2442817329218471
+accuracy: 0.9107742445190599
+Iteration:192500  Loss:tensor(0.1146, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:193000  Loss:tensor(0.2036, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:193500  Loss:tensor(0.4078, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:194000  Loss:tensor(0.6829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:194500  Loss:tensor(0.4214, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:195000  Loss:tensor(0.1120, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:195500  Loss:tensor(0.0888, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:196000  Loss:tensor(0.2989, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:196500  Loss:tensor(0.4284, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:197000  Loss:tensor(0.2389, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 38
+loss: 0.2395176805118763
+accuracy: 0.9129839028244124
+Iteration:197500  Loss:tensor(0.2882, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:198000  Loss:tensor(0.2941, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:198500  Loss:tensor(0.2064, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:199000  Loss:tensor(0.3208, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:199500  Loss:tensor(0.3181, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:200000  Loss:tensor(0.5085, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:200500  Loss:tensor(0.1301, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:201000  Loss:tensor(0.2089, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:201500  Loss:tensor(0.1528, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:202000  Loss:tensor(0.3218, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:202500  Loss:tensor(0.1593, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 39
+loss: 0.23993437576383417
+accuracy: 0.913366581078412
+*********batch_size= 32 ,num_epoch= 50 *********
+Iteration:500  Loss:tensor(0.6978, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(73, device='cuda:0')
+Iteration:1000  Loss:tensor(0.6589, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(77, device='cuda:0')
+Iteration:1500  Loss:tensor(0.7720, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(78, device='cuda:0')
+Iteration:2000  Loss:tensor(0.6676, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(79, device='cuda:0')
+Iteration:2500  Loss:tensor(0.5231, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(80, device='cuda:0')
+Iteration:3000  Loss:tensor(0.7051, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+Iteration:3500  Loss:tensor(0.5743, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+Iteration:4000  Loss:tensor(0.5116, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:4500  Loss:tensor(0.4742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:5000  Loss:tensor(0.6980, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(82, device='cuda:0')
+echo: 0
+loss: 0.7934104586021952
+accuracy: 0.7073992692079795
+Iteration:5500  Loss:tensor(0.3617, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:6000  Loss:tensor(0.7809, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:6500  Loss:tensor(0.6185, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+Iteration:7000  Loss:tensor(0.4829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:7500  Loss:tensor(0.3926, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:8000  Loss:tensor(0.5416, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:8500  Loss:tensor(0.5696, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:9000  Loss:tensor(0.6062, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(84, device='cuda:0')
+Iteration:9500  Loss:tensor(0.3706, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:10000  Loss:tensor(0.3332, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 1
+loss: 0.5652086107469043
+accuracy: 0.7922797748370531
+Iteration:10500  Loss:tensor(0.4132, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:11000  Loss:tensor(0.5334, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:11500  Loss:tensor(0.3866, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12000  Loss:tensor(0.2627, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:12500  Loss:tensor(0.5184, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:13000  Loss:tensor(0.4342, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:13500  Loss:tensor(0.3866, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:14000  Loss:tensor(0.3863, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+Iteration:14500  Loss:tensor(0.3505, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:15000  Loss:tensor(0.3396, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 2
+loss: 0.4997411748118818
+accuracy: 0.8167156330238988
+Iteration:15500  Loss:tensor(0.5241, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16000  Loss:tensor(0.5794, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:16500  Loss:tensor(0.5310, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:17000  Loss:tensor(0.5283, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:17500  Loss:tensor(0.6698, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:18000  Loss:tensor(0.4918, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:18500  Loss:tensor(0.6772, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:19000  Loss:tensor(0.7488, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:19500  Loss:tensor(0.5103, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:20000  Loss:tensor(0.3563, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 3
+loss: 0.46554490590128483
+accuracy: 0.8293440154058859
+Iteration:20500  Loss:tensor(0.2202, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21000  Loss:tensor(0.2777, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:21500  Loss:tensor(0.5508, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22000  Loss:tensor(0.3518, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:22500  Loss:tensor(0.4397, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:23000  Loss:tensor(0.5350, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:23500  Loss:tensor(0.3150, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:24000  Loss:tensor(0.2724, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:24500  Loss:tensor(0.5320, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:25000  Loss:tensor(0.3071, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 4
+loss: 0.43692572518915335
+accuracy: 0.8390961386529725
+Iteration:25500  Loss:tensor(0.4988, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:26000  Loss:tensor(0.2543, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:26500  Loss:tensor(0.5479, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27000  Loss:tensor(0.3394, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:27500  Loss:tensor(0.3549, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:28000  Loss:tensor(0.4493, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:28500  Loss:tensor(0.3910, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29000  Loss:tensor(0.2445, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:29500  Loss:tensor(0.3154, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:30000  Loss:tensor(0.5790, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 5
+loss: 0.4212699068948235
+accuracy: 0.8458485581670946
+Iteration:30500  Loss:tensor(0.2398, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31000  Loss:tensor(0.3612, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:31500  Loss:tensor(0.4299, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32000  Loss:tensor(0.4766, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:32500  Loss:tensor(0.4470, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33000  Loss:tensor(0.4569, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:33500  Loss:tensor(0.4306, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:34000  Loss:tensor(0.5365, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:34500  Loss:tensor(0.4068, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:35000  Loss:tensor(0.3126, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 6
+loss: 0.40122996137184797
+accuracy: 0.8519220323918625
+Iteration:35500  Loss:tensor(0.3296, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36000  Loss:tensor(0.3942, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:36500  Loss:tensor(0.1523, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:37000  Loss:tensor(0.3667, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:37500  Loss:tensor(0.3742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:38000  Loss:tensor(0.2005, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:38500  Loss:tensor(0.4574, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:39000  Loss:tensor(0.3331, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:39500  Loss:tensor(0.4405, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:40000  Loss:tensor(0.4028, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:40500  Loss:tensor(0.5611, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 7
+loss: 0.3850540215101328
+accuracy: 0.8593657416551451
+Iteration:41000  Loss:tensor(0.4912, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:41500  Loss:tensor(0.4838, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:42000  Loss:tensor(0.3644, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:42500  Loss:tensor(0.5172, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:43000  Loss:tensor(0.3521, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:43500  Loss:tensor(0.5113, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:44000  Loss:tensor(0.2570, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:44500  Loss:tensor(0.1842, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45000  Loss:tensor(0.3472, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:45500  Loss:tensor(0.5155, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 8
+loss: 0.3769820576661334
+accuracy: 0.8617173612482718
+Iteration:46000  Loss:tensor(0.4452, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:46500  Loss:tensor(0.5059, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:47000  Loss:tensor(0.2964, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:47500  Loss:tensor(0.2987, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48000  Loss:tensor(0.2945, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:48500  Loss:tensor(0.1957, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:49000  Loss:tensor(0.4029, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+Iteration:49500  Loss:tensor(0.5601, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50000  Loss:tensor(0.2852, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:50500  Loss:tensor(0.1617, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 9
+loss: 0.3680015279591943
+accuracy: 0.865408354730397
+Iteration:51000  Loss:tensor(0.4842, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:51500  Loss:tensor(0.3287, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52000  Loss:tensor(0.2584, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:52500  Loss:tensor(0.3546, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:53000  Loss:tensor(0.1163, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:53500  Loss:tensor(0.7240, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54000  Loss:tensor(0.3756, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:54500  Loss:tensor(0.6099, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55000  Loss:tensor(0.3929, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:55500  Loss:tensor(0.5881, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 10
+loss: 0.35982530135694474
+accuracy: 0.8678155243926525
+Iteration:56000  Loss:tensor(0.4389, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:56500  Loss:tensor(0.2692, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:57000  Loss:tensor(0.5291, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:57500  Loss:tensor(0.6152, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58000  Loss:tensor(0.2414, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:58500  Loss:tensor(0.1485, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59000  Loss:tensor(0.4857, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:59500  Loss:tensor(0.5905, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60000  Loss:tensor(0.3158, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:60500  Loss:tensor(0.2225, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 11
+loss: 0.3521845595988035
+accuracy: 0.871259628678649
+Iteration:61000  Loss:tensor(0.3604, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:61500  Loss:tensor(0.1681, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62000  Loss:tensor(0.4998, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:62500  Loss:tensor(0.6428, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:63000  Loss:tensor(0.3092, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:63500  Loss:tensor(0.2548, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64000  Loss:tensor(0.5688, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:64500  Loss:tensor(0.4409, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65000  Loss:tensor(0.0644, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:65500  Loss:tensor(0.5173, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 12
+loss: 0.34098093414433783
+accuracy: 0.8747345941141615
+Iteration:66000  Loss:tensor(0.2206, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:66500  Loss:tensor(0.1077, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67000  Loss:tensor(0.2162, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:67500  Loss:tensor(0.2466, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68000  Loss:tensor(0.3618, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:68500  Loss:tensor(0.3695, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:69000  Loss:tensor(0.2421, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:69500  Loss:tensor(0.3579, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70000  Loss:tensor(0.3053, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:70500  Loss:tensor(0.3726, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 13
+loss: 0.33090910141867846
+accuracy: 0.8780429093422872
+Iteration:71000  Loss:tensor(0.2469, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:71500  Loss:tensor(0.2483, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72000  Loss:tensor(0.1645, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:72500  Loss:tensor(0.4405, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73000  Loss:tensor(0.5752, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:73500  Loss:tensor(0.5544, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74000  Loss:tensor(0.2381, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:74500  Loss:tensor(1.0530, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75000  Loss:tensor(0.3618, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:75500  Loss:tensor(0.3699, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 14
+loss: 0.325784822512045
+accuracy: 0.8802217064981236
+Iteration:76000  Loss:tensor(0.2302, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:76500  Loss:tensor(0.2782, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:77000  Loss:tensor(0.2075, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:77500  Loss:tensor(0.3186, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:78000  Loss:tensor(0.1875, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:78500  Loss:tensor(0.3313, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:79000  Loss:tensor(0.2942, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:79500  Loss:tensor(0.4334, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80000  Loss:tensor(0.3052, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:80500  Loss:tensor(0.2823, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:81000  Loss:tensor(0.5933, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 15
+loss: 0.317844631630466
+accuracy: 0.8834497827375074
+Iteration:81500  Loss:tensor(0.2696, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:82000  Loss:tensor(0.2126, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:82500  Loss:tensor(0.2303, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83000  Loss:tensor(0.4130, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:83500  Loss:tensor(0.6926, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84000  Loss:tensor(0.1636, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:84500  Loss:tensor(0.6444, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85000  Loss:tensor(0.3085, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:85500  Loss:tensor(0.3483, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:86000  Loss:tensor(0.6261, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 16
+loss: 0.3157803363069442
+accuracy: 0.8843879616827968
+Iteration:86500  Loss:tensor(0.1841, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:87000  Loss:tensor(0.2820, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:87500  Loss:tensor(0.1531, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:88000  Loss:tensor(0.2586, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:88500  Loss:tensor(0.2089, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89000  Loss:tensor(0.1764, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:89500  Loss:tensor(0.2901, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:90000  Loss:tensor(0.1713, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:90500  Loss:tensor(0.2403, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:91000  Loss:tensor(0.2202, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 17
+loss: 0.30860417720012084
+accuracy: 0.8861470472052143
+Iteration:91500  Loss:tensor(0.2771, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:92000  Loss:tensor(0.2135, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:92500  Loss:tensor(0.1459, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:93000  Loss:tensor(0.0962, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:93500  Loss:tensor(0.4698, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:94000  Loss:tensor(0.5455, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:94500  Loss:tensor(0.2860, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:95000  Loss:tensor(0.3141, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:95500  Loss:tensor(0.4561, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:96000  Loss:tensor(0.3644, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 18
+loss: 0.304569714826462
+accuracy: 0.8879678550266641
+Iteration:96500  Loss:tensor(0.2173, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:97000  Loss:tensor(0.3002, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:97500  Loss:tensor(0.2214, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:98000  Loss:tensor(0.6405, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:98500  Loss:tensor(0.3156, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:99000  Loss:tensor(0.2290, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:99500  Loss:tensor(0.3743, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:100000  Loss:tensor(0.5287, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:100500  Loss:tensor(0.3485, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:101000  Loss:tensor(0.3819, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 19
+loss: 0.3092578470518578
+accuracy: 0.8863445585621174
+Iteration:101500  Loss:tensor(0.2545, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:102000  Loss:tensor(0.3602, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:102500  Loss:tensor(0.3688, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:103000  Loss:tensor(0.3277, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:103500  Loss:tensor(0.0895, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:104000  Loss:tensor(0.2551, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:104500  Loss:tensor(0.3025, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:105000  Loss:tensor(0.2240, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:105500  Loss:tensor(0.2240, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:106000  Loss:tensor(0.4072, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 20
+loss: 0.30457529244764553
+accuracy: 0.8888875172822437
+Iteration:106500  Loss:tensor(0.4292, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:107000  Loss:tensor(0.7976, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+Iteration:107500  Loss:tensor(0.3984, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:108000  Loss:tensor(0.3388, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:108500  Loss:tensor(0.1885, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:109000  Loss:tensor(0.3870, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:109500  Loss:tensor(0.2310, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:110000  Loss:tensor(0.5349, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:110500  Loss:tensor(0.3852, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:111000  Loss:tensor(0.4816, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 21
+loss: 0.3218576528916311
+accuracy: 0.8819067252617026
+Iteration:111500  Loss:tensor(0.2783, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:112000  Loss:tensor(0.1807, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:112500  Loss:tensor(0.3099, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:113000  Loss:tensor(0.3755, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:113500  Loss:tensor(0.3149, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:114000  Loss:tensor(0.2381, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:114500  Loss:tensor(0.1344, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+Iteration:115000  Loss:tensor(0.2504, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:115500  Loss:tensor(0.4438, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:116000  Loss:tensor(0.3016, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 22
+loss: 0.2912607924762908
+accuracy: 0.8934055895714004
+Iteration:116500  Loss:tensor(0.3840, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:117000  Loss:tensor(0.1159, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:117500  Loss:tensor(0.4777, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:118000  Loss:tensor(0.2517, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:118500  Loss:tensor(0.1391, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:119000  Loss:tensor(0.2632, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:119500  Loss:tensor(0.1580, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:120000  Loss:tensor(0.1779, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:120500  Loss:tensor(0.2134, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:121000  Loss:tensor(0.2996, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:121500  Loss:tensor(0.1697, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 23
+loss: 0.28566069360627455
+accuracy: 0.8949239581275923
+Iteration:122000  Loss:tensor(0.4282, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:122500  Loss:tensor(0.2377, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:123000  Loss:tensor(0.5273, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:123500  Loss:tensor(0.2391, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:124000  Loss:tensor(0.1423, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:124500  Loss:tensor(0.2345, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:125000  Loss:tensor(0.3476, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:125500  Loss:tensor(0.2171, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:126000  Loss:tensor(0.2224, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:126500  Loss:tensor(0.4740, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 24
+loss: 0.2882823494879031
+accuracy: 0.8933747284218843
+Iteration:127000  Loss:tensor(0.1244, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:127500  Loss:tensor(0.4395, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:128000  Loss:tensor(0.2027, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:128500  Loss:tensor(0.2056, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:129000  Loss:tensor(0.3964, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:129500  Loss:tensor(0.3469, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:130000  Loss:tensor(0.1677, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:130500  Loss:tensor(0.3216, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:131000  Loss:tensor(0.2082, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:131500  Loss:tensor(0.2932, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 25
+loss: 0.28116257623229457
+accuracy: 0.896207781947462
+Iteration:132000  Loss:tensor(0.2756, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:132500  Loss:tensor(0.4527, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:133000  Loss:tensor(0.2202, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:133500  Loss:tensor(0.1532, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:134000  Loss:tensor(0.1531, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:134500  Loss:tensor(0.1074, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:135000  Loss:tensor(0.2431, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:135500  Loss:tensor(0.2571, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:136000  Loss:tensor(0.4966, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:136500  Loss:tensor(0.1412, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 26
+loss: 0.27533117287359804
+accuracy: 0.8994852360260714
+Iteration:137000  Loss:tensor(0.1027, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:137500  Loss:tensor(0.3473, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:138000  Loss:tensor(0.1451, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:138500  Loss:tensor(0.2919, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:139000  Loss:tensor(0.3210, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:139500  Loss:tensor(0.4765, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:140000  Loss:tensor(0.2952, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:140500  Loss:tensor(0.1390, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:141000  Loss:tensor(0.3068, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:141500  Loss:tensor(0.1514, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 27
+loss: 0.27268014210451974
+accuracy: 0.9001333201659095
+Iteration:142000  Loss:tensor(0.4685, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:142500  Loss:tensor(0.0832, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:143000  Loss:tensor(0.2380, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:143500  Loss:tensor(0.0994, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:144000  Loss:tensor(0.2023, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:144500  Loss:tensor(0.3397, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:145000  Loss:tensor(0.2004, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:145500  Loss:tensor(0.2177, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:146000  Loss:tensor(0.2613, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:146500  Loss:tensor(0.4742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 28
+loss: 0.2713455860643737
+accuracy: 0.9007690598459411
+Iteration:147000  Loss:tensor(0.2318, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:147500  Loss:tensor(0.2195, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:148000  Loss:tensor(0.2367, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:148500  Loss:tensor(0.4058, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:149000  Loss:tensor(0.5007, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:149500  Loss:tensor(0.1873, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:150000  Loss:tensor(0.2574, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:150500  Loss:tensor(0.1662, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:151000  Loss:tensor(0.0829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:151500  Loss:tensor(0.3025, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 29
+loss: 0.26584303378175894
+accuracy: 0.9032256073474225
+Iteration:152000  Loss:tensor(0.3226, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:152500  Loss:tensor(0.1445, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:153000  Loss:tensor(0.1348, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:153500  Loss:tensor(0.2829, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:154000  Loss:tensor(0.2707, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:154500  Loss:tensor(0.1363, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:155000  Loss:tensor(0.1684, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:155500  Loss:tensor(0.3207, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:156000  Loss:tensor(0.4216, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:156500  Loss:tensor(0.2121, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 30
+loss: 0.26757140677483354
+accuracy: 0.9019294390677464
+Iteration:157000  Loss:tensor(0.1692, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:157500  Loss:tensor(0.2252, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:158000  Loss:tensor(0.4119, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:158500  Loss:tensor(0.1263, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:159000  Loss:tensor(0.2121, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:159500  Loss:tensor(0.1788, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:160000  Loss:tensor(0.5604, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:160500  Loss:tensor(0.3245, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:161000  Loss:tensor(0.2680, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:161500  Loss:tensor(0.1911, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:162000  Loss:tensor(0.2166, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 31
+loss: 0.26552342173611954
+accuracy: 0.9032811574165515
+Iteration:162500  Loss:tensor(0.1603, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:163000  Loss:tensor(0.1568, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:163500  Loss:tensor(0.1041, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:164000  Loss:tensor(0.2036, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:164500  Loss:tensor(0.3157, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:165000  Loss:tensor(0.1269, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:165500  Loss:tensor(0.2879, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:166000  Loss:tensor(0.2838, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:166500  Loss:tensor(0.1898, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:167000  Loss:tensor(0.3393, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 32
+loss: 0.25771616479047504
+accuracy: 0.9059228718151293
+Iteration:167500  Loss:tensor(0.2069, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:168000  Loss:tensor(0.1988, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:168500  Loss:tensor(0.2726, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:169000  Loss:tensor(0.3069, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:169500  Loss:tensor(0.2383, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:170000  Loss:tensor(0.1883, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:170500  Loss:tensor(0.1082, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:171000  Loss:tensor(0.1557, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:171500  Loss:tensor(0.1852, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:172000  Loss:tensor(0.2464, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 33
+loss: 0.25923338208112845
+accuracy: 0.9053488544341299
+Iteration:172500  Loss:tensor(0.2783, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:173000  Loss:tensor(0.3823, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:173500  Loss:tensor(0.1636, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:174000  Loss:tensor(0.3934, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:174500  Loss:tensor(0.4088, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:175000  Loss:tensor(0.4242, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:175500  Loss:tensor(0.0519, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:176000  Loss:tensor(0.7822, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:176500  Loss:tensor(0.2743, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:177000  Loss:tensor(0.1759, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 34
+loss: 0.25904080737474144
+accuracy: 0.9046143590756468
+Iteration:177500  Loss:tensor(0.0882, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:178000  Loss:tensor(0.2092, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:178500  Loss:tensor(0.3738, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:179000  Loss:tensor(0.3304, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:179500  Loss:tensor(0.1441, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:180000  Loss:tensor(0.4855, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:180500  Loss:tensor(0.2257, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:181000  Loss:tensor(0.1440, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:181500  Loss:tensor(0.1011, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:182000  Loss:tensor(0.2918, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 35
+loss: 0.2535611843473587
+accuracy: 0.9074227236816117
+Iteration:182500  Loss:tensor(0.2440, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:183000  Loss:tensor(0.3100, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:183500  Loss:tensor(0.2764, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:184000  Loss:tensor(0.1211, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:184500  Loss:tensor(0.1787, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:185000  Loss:tensor(0.0787, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:185500  Loss:tensor(0.0780, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:186000  Loss:tensor(0.2177, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:186500  Loss:tensor(0.2381, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:187000  Loss:tensor(0.4586, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 36
+loss: 0.2519565975003249
+accuracy: 0.9077868852459017
+Iteration:187500  Loss:tensor(0.3404, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:188000  Loss:tensor(0.2746, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:188500  Loss:tensor(0.1792, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:189000  Loss:tensor(0.1387, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:189500  Loss:tensor(0.5157, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:190000  Loss:tensor(0.2761, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:190500  Loss:tensor(0.1445, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:191000  Loss:tensor(0.0925, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:191500  Loss:tensor(0.3359, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:192000  Loss:tensor(0.3131, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 37
+loss: 0.24758627898615856
+accuracy: 0.9089534366976101
+Iteration:192500  Loss:tensor(0.1854, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:193000  Loss:tensor(0.4384, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:193500  Loss:tensor(0.2545, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:194000  Loss:tensor(0.2180, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:194500  Loss:tensor(0.3949, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:195000  Loss:tensor(0.3578, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:195500  Loss:tensor(0.1952, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:196000  Loss:tensor(0.4320, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:196500  Loss:tensor(0.2885, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:197000  Loss:tensor(0.2000, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 38
+loss: 0.2451120302693283
+accuracy: 0.9098730989531898
+Iteration:197500  Loss:tensor(0.6680, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:198000  Loss:tensor(0.1386, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:198500  Loss:tensor(0.4603, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:199000  Loss:tensor(0.2244, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:199500  Loss:tensor(0.3429, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:200000  Loss:tensor(0.2312, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:200500  Loss:tensor(0.1527, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:201000  Loss:tensor(0.2632, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:201500  Loss:tensor(0.1809, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:202000  Loss:tensor(0.1693, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:202500  Loss:tensor(0.1983, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 39
+loss: 0.24011788260741312
+accuracy: 0.9119222792810586
+Iteration:203000  Loss:tensor(0.2503, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:203500  Loss:tensor(0.0859, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:204000  Loss:tensor(0.0541, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:204500  Loss:tensor(0.1334, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:205000  Loss:tensor(0.4267, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:205500  Loss:tensor(0.0511, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+Iteration:206000  Loss:tensor(0.0649, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+Iteration:206500  Loss:tensor(0.1236, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')

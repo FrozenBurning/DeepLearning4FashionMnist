@@ -1,0 +1,1769 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]             128
+            Conv2d-2           [-1, 64, 32, 32]           4,096
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+       BasicConv2d-5           [-1, 64, 32, 32]               0
+            Conv2d-6           [-1, 96, 32, 32]           6,144
+       BatchNorm2d-7           [-1, 96, 32, 32]             192
+              ReLU-8           [-1, 96, 32, 32]               0
+       BasicConv2d-9           [-1, 96, 32, 32]               0
+           Conv2d-10          [-1, 128, 32, 32]         110,592
+      BatchNorm2d-11          [-1, 128, 32, 32]             256
+             ReLU-12          [-1, 128, 32, 32]               0
+      BasicConv2d-13          [-1, 128, 32, 32]               0
+           Conv2d-14           [-1, 16, 32, 32]           1,024
+      BatchNorm2d-15           [-1, 16, 32, 32]              32
+             ReLU-16           [-1, 16, 32, 32]               0
+      BasicConv2d-17           [-1, 16, 32, 32]               0
+           Conv2d-18           [-1, 32, 32, 32]          12,800
+      BatchNorm2d-19           [-1, 32, 32, 32]              64
+             ReLU-20           [-1, 32, 32, 32]               0
+      BasicConv2d-21           [-1, 32, 32, 32]               0
+        MaxPool2d-22           [-1, 64, 32, 32]               0
+           Conv2d-23           [-1, 32, 32, 32]           2,048
+      BatchNorm2d-24           [-1, 32, 32, 32]              64
+             ReLU-25           [-1, 32, 32, 32]               0
+      BasicConv2d-26           [-1, 32, 32, 32]               0
+        Inception-27          [-1, 256, 32, 32]               0
+           Conv2d-28          [-1, 128, 32, 32]          32,768
+      BatchNorm2d-29          [-1, 128, 32, 32]             256
+             ReLU-30          [-1, 128, 32, 32]               0
+      BasicConv2d-31          [-1, 128, 32, 32]               0
+           Conv2d-32          [-1, 128, 32, 32]          32,768
+      BatchNorm2d-33          [-1, 128, 32, 32]             256
+             ReLU-34          [-1, 128, 32, 32]               0
+      BasicConv2d-35          [-1, 128, 32, 32]               0
+           Conv2d-36          [-1, 192, 32, 32]         221,184
+      BatchNorm2d-37          [-1, 192, 32, 32]             384
+             ReLU-38          [-1, 192, 32, 32]               0
+      BasicConv2d-39          [-1, 192, 32, 32]               0
+           Conv2d-40           [-1, 32, 32, 32]           8,192
+      BatchNorm2d-41           [-1, 32, 32, 32]              64
+             ReLU-42           [-1, 32, 32, 32]               0
+      BasicConv2d-43           [-1, 32, 32, 32]               0
+           Conv2d-44           [-1, 96, 32, 32]          76,800
+      BatchNorm2d-45           [-1, 96, 32, 32]             192
+             ReLU-46           [-1, 96, 32, 32]               0
+      BasicConv2d-47           [-1, 96, 32, 32]               0
+        MaxPool2d-48          [-1, 256, 32, 32]               0
+           Conv2d-49           [-1, 64, 32, 32]          16,384
+      BatchNorm2d-50           [-1, 64, 32, 32]             128
+             ReLU-51           [-1, 64, 32, 32]               0
+      BasicConv2d-52           [-1, 64, 32, 32]               0
+        Inception-53          [-1, 480, 32, 32]               0
+        MaxPool2d-54          [-1, 480, 16, 16]               0
+           Conv2d-55          [-1, 192, 16, 16]          92,160
+      BatchNorm2d-56          [-1, 192, 16, 16]             384
+             ReLU-57          [-1, 192, 16, 16]               0
+      BasicConv2d-58          [-1, 192, 16, 16]               0
+           Conv2d-59           [-1, 96, 16, 16]          46,080
+      BatchNorm2d-60           [-1, 96, 16, 16]             192
+             ReLU-61           [-1, 96, 16, 16]               0
+      BasicConv2d-62           [-1, 96, 16, 16]               0
+           Conv2d-63          [-1, 208, 16, 16]         179,712
+      BatchNorm2d-64          [-1, 208, 16, 16]             416
+             ReLU-65          [-1, 208, 16, 16]               0
+      BasicConv2d-66          [-1, 208, 16, 16]               0
+           Conv2d-67           [-1, 16, 16, 16]           7,680
+      BatchNorm2d-68           [-1, 16, 16, 16]              32
+             ReLU-69           [-1, 16, 16, 16]               0
+      BasicConv2d-70           [-1, 16, 16, 16]               0
+           Conv2d-71           [-1, 48, 16, 16]          19,200
+      BatchNorm2d-72           [-1, 48, 16, 16]              96
+             ReLU-73           [-1, 48, 16, 16]               0
+      BasicConv2d-74           [-1, 48, 16, 16]               0
+        MaxPool2d-75          [-1, 480, 16, 16]               0
+           Conv2d-76           [-1, 64, 16, 16]          30,720
+      BatchNorm2d-77           [-1, 64, 16, 16]             128
+             ReLU-78           [-1, 64, 16, 16]               0
+      BasicConv2d-79           [-1, 64, 16, 16]               0
+        Inception-80          [-1, 512, 16, 16]               0
+           Conv2d-81          [-1, 160, 16, 16]          81,920
+      BatchNorm2d-82          [-1, 160, 16, 16]             320
+             ReLU-83          [-1, 160, 16, 16]               0
+      BasicConv2d-84          [-1, 160, 16, 16]               0
+           Conv2d-85          [-1, 112, 16, 16]          57,344
+      BatchNorm2d-86          [-1, 112, 16, 16]             224
+             ReLU-87          [-1, 112, 16, 16]               0
+      BasicConv2d-88          [-1, 112, 16, 16]               0
+           Conv2d-89          [-1, 224, 16, 16]         225,792
+      BatchNorm2d-90          [-1, 224, 16, 16]             448
+             ReLU-91          [-1, 224, 16, 16]               0
+      BasicConv2d-92          [-1, 224, 16, 16]               0
+           Conv2d-93           [-1, 24, 16, 16]          12,288
+      BatchNorm2d-94           [-1, 24, 16, 16]              48
+             ReLU-95           [-1, 24, 16, 16]               0
+      BasicConv2d-96           [-1, 24, 16, 16]               0
+           Conv2d-97           [-1, 64, 16, 16]          38,400
+      BatchNorm2d-98           [-1, 64, 16, 16]             128
+             ReLU-99           [-1, 64, 16, 16]               0
+     BasicConv2d-100           [-1, 64, 16, 16]               0
+       MaxPool2d-101          [-1, 512, 16, 16]               0
+          Conv2d-102           [-1, 64, 16, 16]          32,768
+     BatchNorm2d-103           [-1, 64, 16, 16]             128
+            ReLU-104           [-1, 64, 16, 16]               0
+     BasicConv2d-105           [-1, 64, 16, 16]               0
+       Inception-106          [-1, 512, 16, 16]               0
+       AvgPool2d-107            [-1, 512, 2, 2]               0
+         Dropout-108            [-1, 512, 2, 2]               0
+          Linear-109                   [-1, 10]          20,490
+================================================================
+Total params: 1,374,042
+Trainable params: 1,374,042
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 55.09
+Params size (MB): 5.24
+Estimated Total Size (MB): 60.34
+----------------------------------------------------------------
+echo: 0
+loss: 0.9159326929051729
+accuracy: 0.6853031200631912
+echo: 1
+loss: 0.6716668778121189
+accuracy: 0.7695300157977883
+Iteration:500  Loss:tensor(0.5491, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(81, device='cuda:0')
+echo: 2
+loss: 0.5949213689819897
+accuracy: 0.798676935229068
+echo: 3
+loss: 0.5485210591017917
+accuracy: 0.8174516192733018
+Iteration:1000  Loss:tensor(0.4622, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(83, device='cuda:0')
+echo: 4
+loss: 0.5219279578511749
+accuracy: 0.8269352290679304
+echo: 5
+loss: 0.4959286812922401
+accuracy: 0.8351747630331754
+echo: 6
+loss: 0.4773830888678112
+accuracy: 0.8413334320695103
+Iteration:1500  Loss:tensor(0.4916, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(85, device='cuda:0')
+echo: 7
+loss: 0.46319161786287316
+accuracy: 0.8475859004739336
+echo: 8
+loss: 0.45001876537833735
+accuracy: 0.8511947077409162
+Iteration:2000  Loss:tensor(0.4128, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 9
+loss: 0.43749219313334514
+accuracy: 0.8581852290679304
+echo: 10
+loss: 0.4313234039957489
+accuracy: 0.8565486769352291
+Iteration:2500  Loss:tensor(0.4122, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(86, device='cuda:0')
+echo: 11
+loss: 0.41783432521243796
+accuracy: 0.8606832543443917
+echo: 12
+loss: 0.4074437394385089
+accuracy: 0.8674590244865719
+echo: 13
+loss: 0.40108459100339083
+accuracy: 0.8691844391785151
+Iteration:3000  Loss:tensor(0.4653, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 14
+loss: 0.3877500017389867
+accuracy: 0.872277349921011
+echo: 15
+loss: 0.3866536531826896
+accuracy: 0.8731881911532385
+Iteration:3500  Loss:tensor(0.3934, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 16
+loss: 0.37654290274138696
+accuracy: 0.8758392575039495
+echo: 17
+loss: 0.3699026498325628
+accuracy: 0.8796578791469194
+Iteration:4000  Loss:tensor(0.2843, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 18
+loss: 0.3632367672089717
+accuracy: 0.8815511453396525
+echo: 19
+loss: 0.3550068915455262
+accuracy: 0.8851895734597157
+echo: 20
+loss: 0.3605611610327852
+accuracy: 0.8839973341232228
+Iteration:4500  Loss:tensor(0.3460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(87, device='cuda:0')
+echo: 21
+loss: 0.3478862070500568
+accuracy: 0.886897709320695
+echo: 22
+loss: 0.34305068772833497
+accuracy: 0.8868606832543443
+Iteration:5000  Loss:tensor(0.3132, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 23
+loss: 0.33541910096084904
+accuracy: 0.8916345774091627
+echo: 24
+loss: 0.333103144832697
+accuracy: 0.891390205371248
+echo: 25
+loss: 0.3209413446803793
+accuracy: 0.8960801737756714
+Iteration:5500  Loss:tensor(0.2847, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 26
+loss: 0.3194881832288905
+accuracy: 0.8942979857819906
+echo: 27
+loss: 0.31676618874920487
+accuracy: 0.8977142575039495
+Iteration:6000  Loss:tensor(0.3150, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 28
+loss: 0.3165055947704903
+accuracy: 0.8970551935229069
+echo: 29
+loss: 0.30864454353872633
+accuracy: 0.9003011453396524
+Iteration:6500  Loss:tensor(0.2303, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 30
+loss: 0.2634711723192043
+accuracy: 0.9142254146919432
+echo: 31
+loss: 0.2481642433958596
+accuracy: 0.9206630134281201
+echo: 32
+loss: 0.244160046297792
+accuracy: 0.9232548380726698
+Iteration:7000  Loss:tensor(0.2596, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 33
+loss: 0.23876834890288764
+accuracy: 0.9244075829383887
+echo: 34
+loss: 0.2335861284303439
+accuracy: 0.9246149289099526
+Iteration:7500  Loss:tensor(0.1475, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 35
+loss: 0.23187808484121522
+accuracy: 0.9259997037914692
+echo: 36
+loss: 0.2328840259692115
+accuracy: 0.9243359992101106
+Iteration:8000  Loss:tensor(0.2034, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 37
+loss: 0.22945854046615943
+accuracy: 0.9256788112164297
+echo: 38
+loss: 0.2279880194443662
+accuracy: 0.9261453396524486
+echo: 39
+loss: 0.22310286001147817
+accuracy: 0.9304033372827804
+Iteration:8500  Loss:tensor(0.2657, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 40
+loss: 0.2245529290482896
+accuracy: 0.9295986374407582
+echo: 41
+loss: 0.2212363520716604
+accuracy: 0.9287421011058452
+Iteration:9000  Loss:tensor(0.1542, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 42
+loss: 0.2190788502659278
+accuracy: 0.930776066350711
+echo: 43
+loss: 0.21956465340338613
+accuracy: 0.9296430687203792
+echo: 44
+loss: 0.21903120373238885
+accuracy: 0.9297590837282781
+Iteration:9500  Loss:tensor(0.1616, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 45
+loss: 0.21126208592082651
+accuracy: 0.9308822077409162
+echo: 46
+loss: 0.21141175622058705
+accuracy: 0.9321114731437599
+Iteration:10000  Loss:tensor(0.3408, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 47
+loss: 0.209467318244455
+accuracy: 0.9344144944707742
+echo: 48
+loss: 0.20652466426245975
+accuracy: 0.9341799960505529
+Iteration:10500  Loss:tensor(0.2421, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 49
+loss: 0.2102135038488849
+accuracy: 0.9322990718799368
+echo: 50
+loss: 0.20441865243052984
+accuracy: 0.9339603080568721
+echo: 51
+loss: 0.20179321567452915
+accuracy: 0.9350834320695103
+Iteration:11000  Loss:tensor(0.2153, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 52
+loss: 0.2023011153978759
+accuracy: 0.936196682464455
+echo: 53
+loss: 0.20171823677434741
+accuracy: 0.9337850513428121
+Iteration:11500  Loss:tensor(0.2178, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 54
+loss: 0.19751773121373914
+accuracy: 0.9370359399684044
+echo: 55
+loss: 0.1977935602526529
+accuracy: 0.9362188981042655
+Iteration:12000  Loss:tensor(0.1939, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 56
+loss: 0.19738859683275223
+accuracy: 0.9353648301737756
+echo: 57
+loss: 0.19645180373112736
+accuracy: 0.9357054699842022
+echo: 58
+loss: 0.19422158538871467
+accuracy: 0.9370408767772511
+Iteration:12500  Loss:tensor(0.1571, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 59
+loss: 0.19058161271268156
+accuracy: 0.9392846563981043
+echo: 60
+loss: 0.18523591537893666
+accuracy: 0.9399215047393366
+Iteration:13000  Loss:tensor(0.1955, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 61
+loss: 0.18726548824406347
+accuracy: 0.9398425157977883
+echo: 62
+loss: 0.18289344637738586
+accuracy: 0.9404546800947867
+Iteration:13500  Loss:tensor(0.2688, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 63
+loss: 0.17990263381981736
+accuracy: 0.9429354265402843
+echo: 64
+loss: 0.17831614927799216
+accuracy: 0.9426120655608214
+echo: 65
+loss: 0.17970261260231524
+accuracy: 0.9417061611374407
+Iteration:14000  Loss:tensor(0.2282, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 66
+loss: 0.18354828768714343
+accuracy: 0.941027349921011
+echo: 67
+loss: 0.18019542136887237
+accuracy: 0.94184439178515
+Iteration:14500  Loss:tensor(0.1711, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 68
+loss: 0.18053308146966013
+accuracy: 0.9427823854660348
+echo: 69
+loss: 0.1800677445121286
+accuracy: 0.9425849131121643
+echo: 70
+loss: 0.18115243735895337
+accuracy: 0.9424688981042655
+Iteration:15000  Loss:tensor(0.1255, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 71
+loss: 0.1805534376211076
+accuracy: 0.9422961097946287
+echo: 72
+loss: 0.17802575576644372
+accuracy: 0.9431822669826224
+Iteration:15500  Loss:tensor(0.1889, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]             128
+            Conv2d-2           [-1, 64, 32, 32]           4,096
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+       BasicConv2d-5           [-1, 64, 32, 32]               0
+            Conv2d-6           [-1, 96, 32, 32]           6,144
+       BatchNorm2d-7           [-1, 96, 32, 32]             192
+              ReLU-8           [-1, 96, 32, 32]               0
+       BasicConv2d-9           [-1, 96, 32, 32]               0
+           Conv2d-10          [-1, 128, 32, 32]         110,592
+      BatchNorm2d-11          [-1, 128, 32, 32]             256
+             ReLU-12          [-1, 128, 32, 32]               0
+      BasicConv2d-13          [-1, 128, 32, 32]               0
+           Conv2d-14           [-1, 16, 32, 32]           1,024
+      BatchNorm2d-15           [-1, 16, 32, 32]              32
+             ReLU-16           [-1, 16, 32, 32]               0
+      BasicConv2d-17           [-1, 16, 32, 32]               0
+           Conv2d-18           [-1, 32, 32, 32]          12,800
+      BatchNorm2d-19           [-1, 32, 32, 32]              64
+             ReLU-20           [-1, 32, 32, 32]               0
+      BasicConv2d-21           [-1, 32, 32, 32]               0
+        MaxPool2d-22           [-1, 64, 32, 32]               0
+           Conv2d-23           [-1, 32, 32, 32]           2,048
+      BatchNorm2d-24           [-1, 32, 32, 32]              64
+             ReLU-25           [-1, 32, 32, 32]               0
+      BasicConv2d-26           [-1, 32, 32, 32]               0
+        Inception-27          [-1, 256, 32, 32]               0
+           Conv2d-28          [-1, 128, 32, 32]          32,768
+      BatchNorm2d-29          [-1, 128, 32, 32]             256
+             ReLU-30          [-1, 128, 32, 32]               0
+      BasicConv2d-31          [-1, 128, 32, 32]               0
+           Conv2d-32          [-1, 128, 32, 32]          32,768
+      BatchNorm2d-33          [-1, 128, 32, 32]             256
+             ReLU-34          [-1, 128, 32, 32]               0
+      BasicConv2d-35          [-1, 128, 32, 32]               0
+           Conv2d-36          [-1, 192, 32, 32]         221,184
+      BatchNorm2d-37          [-1, 192, 32, 32]             384
+             ReLU-38          [-1, 192, 32, 32]               0
+      BasicConv2d-39          [-1, 192, 32, 32]               0
+           Conv2d-40           [-1, 32, 32, 32]           8,192
+      BatchNorm2d-41           [-1, 32, 32, 32]              64
+             ReLU-42           [-1, 32, 32, 32]               0
+      BasicConv2d-43           [-1, 32, 32, 32]               0
+           Conv2d-44           [-1, 96, 32, 32]          76,800
+      BatchNorm2d-45           [-1, 96, 32, 32]             192
+             ReLU-46           [-1, 96, 32, 32]               0
+      BasicConv2d-47           [-1, 96, 32, 32]               0
+        MaxPool2d-48          [-1, 256, 32, 32]               0
+           Conv2d-49           [-1, 64, 32, 32]          16,384
+      BatchNorm2d-50           [-1, 64, 32, 32]             128
+             ReLU-51           [-1, 64, 32, 32]               0
+      BasicConv2d-52           [-1, 64, 32, 32]               0
+        Inception-53          [-1, 480, 32, 32]               0
+        MaxPool2d-54          [-1, 480, 16, 16]               0
+           Conv2d-55          [-1, 192, 16, 16]          92,160
+      BatchNorm2d-56          [-1, 192, 16, 16]             384
+             ReLU-57          [-1, 192, 16, 16]               0
+      BasicConv2d-58          [-1, 192, 16, 16]               0
+           Conv2d-59           [-1, 96, 16, 16]          46,080
+      BatchNorm2d-60           [-1, 96, 16, 16]             192
+             ReLU-61           [-1, 96, 16, 16]               0
+      BasicConv2d-62           [-1, 96, 16, 16]               0
+           Conv2d-63          [-1, 208, 16, 16]         179,712
+      BatchNorm2d-64          [-1, 208, 16, 16]             416
+             ReLU-65          [-1, 208, 16, 16]               0
+      BasicConv2d-66          [-1, 208, 16, 16]               0
+           Conv2d-67           [-1, 16, 16, 16]           7,680
+      BatchNorm2d-68           [-1, 16, 16, 16]              32
+             ReLU-69           [-1, 16, 16, 16]               0
+      BasicConv2d-70           [-1, 16, 16, 16]               0
+           Conv2d-71           [-1, 48, 16, 16]          19,200
+      BatchNorm2d-72           [-1, 48, 16, 16]              96
+             ReLU-73           [-1, 48, 16, 16]               0
+      BasicConv2d-74           [-1, 48, 16, 16]               0
+        MaxPool2d-75          [-1, 480, 16, 16]               0
+           Conv2d-76           [-1, 64, 16, 16]          30,720
+      BatchNorm2d-77           [-1, 64, 16, 16]             128
+             ReLU-78           [-1, 64, 16, 16]               0
+      BasicConv2d-79           [-1, 64, 16, 16]               0
+        Inception-80          [-1, 512, 16, 16]               0
+           Conv2d-81          [-1, 160, 16, 16]          81,920
+      BatchNorm2d-82          [-1, 160, 16, 16]             320
+             ReLU-83          [-1, 160, 16, 16]               0
+      BasicConv2d-84          [-1, 160, 16, 16]               0
+           Conv2d-85          [-1, 112, 16, 16]          57,344
+      BatchNorm2d-86          [-1, 112, 16, 16]             224
+             ReLU-87          [-1, 112, 16, 16]               0
+      BasicConv2d-88          [-1, 112, 16, 16]               0
+           Conv2d-89          [-1, 224, 16, 16]         225,792
+      BatchNorm2d-90          [-1, 224, 16, 16]             448
+             ReLU-91          [-1, 224, 16, 16]               0
+      BasicConv2d-92          [-1, 224, 16, 16]               0
+           Conv2d-93           [-1, 24, 16, 16]          12,288
+      BatchNorm2d-94           [-1, 24, 16, 16]              48
+             ReLU-95           [-1, 24, 16, 16]               0
+      BasicConv2d-96           [-1, 24, 16, 16]               0
+           Conv2d-97           [-1, 64, 16, 16]          38,400
+      BatchNorm2d-98           [-1, 64, 16, 16]             128
+             ReLU-99           [-1, 64, 16, 16]               0
+     BasicConv2d-100           [-1, 64, 16, 16]               0
+       MaxPool2d-101          [-1, 512, 16, 16]               0
+          Conv2d-102           [-1, 64, 16, 16]          32,768
+     BatchNorm2d-103           [-1, 64, 16, 16]             128
+            ReLU-104           [-1, 64, 16, 16]               0
+     BasicConv2d-105           [-1, 64, 16, 16]               0
+       Inception-106          [-1, 512, 16, 16]               0
+       AvgPool2d-107            [-1, 512, 2, 2]               0
+         Dropout-108            [-1, 512, 2, 2]               0
+          Linear-109                   [-1, 10]          20,490
+================================================================
+Total params: 1,374,042
+Trainable params: 1,374,042
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 55.09
+Params size (MB): 5.24
+Estimated Total Size (MB): 60.34
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]             128
+            Conv2d-2           [-1, 64, 32, 32]           4,096
+       BatchNorm2d-3           [-1, 64, 32, 32]             128
+              ReLU-4           [-1, 64, 32, 32]               0
+       BasicConv2d-5           [-1, 64, 32, 32]               0
+            Conv2d-6           [-1, 96, 32, 32]           6,144
+       BatchNorm2d-7           [-1, 96, 32, 32]             192
+              ReLU-8           [-1, 96, 32, 32]               0
+       BasicConv2d-9           [-1, 96, 32, 32]               0
+           Conv2d-10          [-1, 128, 32, 32]         110,592
+      BatchNorm2d-11          [-1, 128, 32, 32]             256
+             ReLU-12          [-1, 128, 32, 32]               0
+      BasicConv2d-13          [-1, 128, 32, 32]               0
+           Conv2d-14           [-1, 16, 32, 32]           1,024
+      BatchNorm2d-15           [-1, 16, 32, 32]              32
+             ReLU-16           [-1, 16, 32, 32]               0
+      BasicConv2d-17           [-1, 16, 32, 32]               0
+           Conv2d-18           [-1, 32, 32, 32]          12,800
+      BatchNorm2d-19           [-1, 32, 32, 32]              64
+             ReLU-20           [-1, 32, 32, 32]               0
+      BasicConv2d-21           [-1, 32, 32, 32]               0
+        MaxPool2d-22           [-1, 64, 32, 32]               0
+           Conv2d-23           [-1, 32, 32, 32]           2,048
+      BatchNorm2d-24           [-1, 32, 32, 32]              64
+             ReLU-25           [-1, 32, 32, 32]               0
+      BasicConv2d-26           [-1, 32, 32, 32]               0
+        Inception-27          [-1, 256, 32, 32]               0
+           Conv2d-28          [-1, 128, 32, 32]          32,768
+      BatchNorm2d-29          [-1, 128, 32, 32]             256
+             ReLU-30          [-1, 128, 32, 32]               0
+      BasicConv2d-31          [-1, 128, 32, 32]               0
+           Conv2d-32          [-1, 128, 32, 32]          32,768
+      BatchNorm2d-33          [-1, 128, 32, 32]             256
+             ReLU-34          [-1, 128, 32, 32]               0
+      BasicConv2d-35          [-1, 128, 32, 32]               0
+           Conv2d-36          [-1, 192, 32, 32]         221,184
+      BatchNorm2d-37          [-1, 192, 32, 32]             384
+             ReLU-38          [-1, 192, 32, 32]               0
+      BasicConv2d-39          [-1, 192, 32, 32]               0
+           Conv2d-40           [-1, 32, 32, 32]           8,192
+      BatchNorm2d-41           [-1, 32, 32, 32]              64
+             ReLU-42           [-1, 32, 32, 32]               0
+      BasicConv2d-43           [-1, 32, 32, 32]               0
+           Conv2d-44           [-1, 96, 32, 32]          76,800
+      BatchNorm2d-45           [-1, 96, 32, 32]             192
+             ReLU-46           [-1, 96, 32, 32]               0
+      BasicConv2d-47           [-1, 96, 32, 32]               0
+        MaxPool2d-48          [-1, 256, 32, 32]               0
+           Conv2d-49           [-1, 64, 32, 32]          16,384
+      BatchNorm2d-50           [-1, 64, 32, 32]             128
+             ReLU-51           [-1, 64, 32, 32]               0
+      BasicConv2d-52           [-1, 64, 32, 32]               0
+        Inception-53          [-1, 480, 32, 32]               0
+        MaxPool2d-54          [-1, 480, 16, 16]               0
+           Conv2d-55          [-1, 192, 16, 16]          92,160
+      BatchNorm2d-56          [-1, 192, 16, 16]             384
+             ReLU-57          [-1, 192, 16, 16]               0
+      BasicConv2d-58          [-1, 192, 16, 16]               0
+           Conv2d-59           [-1, 96, 16, 16]          46,080
+      BatchNorm2d-60           [-1, 96, 16, 16]             192
+             ReLU-61           [-1, 96, 16, 16]               0
+      BasicConv2d-62           [-1, 96, 16, 16]               0
+           Conv2d-63          [-1, 208, 16, 16]         179,712
+      BatchNorm2d-64          [-1, 208, 16, 16]             416
+             ReLU-65          [-1, 208, 16, 16]               0
+      BasicConv2d-66          [-1, 208, 16, 16]               0
+           Conv2d-67           [-1, 16, 16, 16]           7,680
+      BatchNorm2d-68           [-1, 16, 16, 16]              32
+             ReLU-69           [-1, 16, 16, 16]               0
+      BasicConv2d-70           [-1, 16, 16, 16]               0
+           Conv2d-71           [-1, 48, 16, 16]          19,200
+      BatchNorm2d-72           [-1, 48, 16, 16]              96
+             ReLU-73           [-1, 48, 16, 16]               0
+      BasicConv2d-74           [-1, 48, 16, 16]               0
+        MaxPool2d-75          [-1, 480, 16, 16]               0
+           Conv2d-76           [-1, 64, 16, 16]          30,720
+      BatchNorm2d-77           [-1, 64, 16, 16]             128
+             ReLU-78           [-1, 64, 16, 16]               0
+      BasicConv2d-79           [-1, 64, 16, 16]               0
+        Inception-80          [-1, 512, 16, 16]               0
+           Conv2d-81          [-1, 160, 16, 16]          81,920
+      BatchNorm2d-82          [-1, 160, 16, 16]             320
+             ReLU-83          [-1, 160, 16, 16]               0
+      BasicConv2d-84          [-1, 160, 16, 16]               0
+           Conv2d-85          [-1, 112, 16, 16]          57,344
+      BatchNorm2d-86          [-1, 112, 16, 16]             224
+             ReLU-87          [-1, 112, 16, 16]               0
+      BasicConv2d-88          [-1, 112, 16, 16]               0
+           Conv2d-89          [-1, 224, 16, 16]         225,792
+      BatchNorm2d-90          [-1, 224, 16, 16]             448
+             ReLU-91          [-1, 224, 16, 16]               0
+      BasicConv2d-92          [-1, 224, 16, 16]               0
+           Conv2d-93           [-1, 24, 16, 16]          12,288
+      BatchNorm2d-94           [-1, 24, 16, 16]              48
+             ReLU-95           [-1, 24, 16, 16]               0
+      BasicConv2d-96           [-1, 24, 16, 16]               0
+           Conv2d-97           [-1, 64, 16, 16]          38,400
+      BatchNorm2d-98           [-1, 64, 16, 16]             128
+             ReLU-99           [-1, 64, 16, 16]               0
+     BasicConv2d-100           [-1, 64, 16, 16]               0
+       MaxPool2d-101          [-1, 512, 16, 16]               0
+          Conv2d-102           [-1, 64, 16, 16]          32,768
+     BatchNorm2d-103           [-1, 64, 16, 16]             128
+            ReLU-104           [-1, 64, 16, 16]               0
+     BasicConv2d-105           [-1, 64, 16, 16]               0
+       Inception-106          [-1, 512, 16, 16]               0
+       AvgPool2d-107            [-1, 512, 2, 2]               0
+         Dropout-108            [-1, 512, 2, 2]               0
+          Linear-109                   [-1, 10]          20,490
+================================================================
+Total params: 1,374,042
+Trainable params: 1,374,042
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 55.09
+Params size (MB): 5.24
+Estimated Total Size (MB): 60.34
+----------------------------------------------------------------
+echo: 0
+loss: 0.3366949461859549
+accuracy: 0.8879326760324983
+Iteration:500  Loss:tensor(0.2486, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 1
+loss: 0.33767337251401625
+accuracy: 0.8884616198375084
+Iteration:1000  Loss:tensor(0.4503, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 2
+loss: 0.32178693351234305
+accuracy: 0.8947084461746784
+Iteration:1500  Loss:tensor(0.2063, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 3
+loss: 0.31871860142426467
+accuracy: 0.8953273104265402
+Iteration:2000  Loss:tensor(0.2472, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 4
+loss: 0.3119100091263864
+accuracy: 0.8976282159783345
+Iteration:2500  Loss:tensor(0.2161, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 5
+loss: 0.3103701030014533
+accuracy: 0.8973002708192281
+echo: 6
+loss: 0.2978255138754562
+accuracy: 0.9002835138794854
+Iteration:3000  Loss:tensor(0.3541, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 7
+loss: 0.3004542326828315
+accuracy: 0.901092797901151
+Iteration:3500  Loss:tensor(0.3132, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 8
+loss: 0.29400031129118953
+accuracy: 0.9030022850372377
+Iteration:4000  Loss:tensor(0.2720, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 9
+loss: 0.2959263275832079
+accuracy: 0.9052185595802302
+Iteration:4500  Loss:tensor(0.3003, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 10
+loss: 0.2878915683247184
+accuracy: 0.9051074813811781
+Iteration:5000  Loss:tensor(0.4598, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 11
+loss: 0.28520846854171483
+accuracy: 0.9048271411645227
+echo: 12
+loss: 0.2861535291041808
+accuracy: 0.9069006008801624
+Iteration:5500  Loss:tensor(0.1778, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 13
+loss: 0.28269128543788224
+accuracy: 0.9073713608666215
+Iteration:6000  Loss:tensor(0.3426, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 14
+loss: 0.2791082075492466
+accuracy: 0.9083446174678402
+Iteration:6500  Loss:tensor(0.2139, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 15
+loss: 0.2786371180902443
+accuracy: 0.9110369414353419
+Iteration:7000  Loss:tensor(0.1863, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 16
+loss: 0.27684216796292516
+accuracy: 0.908905297901151
+Iteration:7500  Loss:tensor(0.3207, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 17
+loss: 0.2720496685054347
+accuracy: 0.9097992129316181
+Iteration:8000  Loss:tensor(0.1921, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 18
+loss: 0.2721063709283751
+accuracy: 0.9104233666215301
+echo: 19
+loss: 0.26696261685888917
+accuracy: 0.9109787576167908
+Iteration:8500  Loss:tensor(0.2569, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 20
+loss: 0.2690802265788424
+accuracy: 0.9105397342586323
+Iteration:9000  Loss:tensor(0.1441, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 21
+loss: 0.2661520022881257
+accuracy: 0.9114230704129993
+Iteration:9500  Loss:tensor(0.3570, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 22
+loss: 0.2657909692569649
+accuracy: 0.9130416384563305
+Iteration:10000  Loss:tensor(0.1734, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 23
+loss: 0.26164413127006514
+accuracy: 0.9151203876100202
+Iteration:10500  Loss:tensor(0.2643, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 24
+loss: 0.2568278459399515
+accuracy: 0.9145597071767095
+echo: 25
+loss: 0.26428940809239143
+accuracy: 0.9137398442789438
+Iteration:11000  Loss:tensor(0.1397, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 26
+loss: 0.2606959770217326
+accuracy: 0.9146602064996615
+Iteration:11500  Loss:tensor(0.2438, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(88, device='cuda:0')
+echo: 27
+loss: 0.25796292669258974
+accuracy: 0.9150992298578199
+Iteration:12000  Loss:tensor(0.2314, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 28
+loss: 0.26314273772328667
+accuracy: 0.9135547139471902
+Iteration:12500  Loss:tensor(0.0863, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(89, device='cuda:0')
+echo: 29
+loss: 0.2504917231710601
+accuracy: 0.9169716909275558
+Iteration:13000  Loss:tensor(0.1491, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 30
+loss: 0.19807715843745036
+accuracy: 0.9345855196343941
+Iteration:13500  Loss:tensor(0.1757, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 31
+loss: 0.17201820369898144
+accuracy: 0.945111501354096
+echo: 32
+loss: 0.16524166656190184
+accuracy: 0.9471849610697359
+Iteration:14000  Loss:tensor(0.1226, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 33
+loss: 0.1652933416614459
+accuracy: 0.9480154028436019
+Iteration:14500  Loss:tensor(0.1606, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 34
+loss: 0.15644412106388553
+accuracy: 0.9503797816519972
+Iteration:15000  Loss:tensor(0.0614, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 35
+loss: 0.15285688720784762
+accuracy: 0.9512842755585647
+Iteration:15500  Loss:tensor(0.1317, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 36
+loss: 0.15009028441603714
+accuracy: 0.9518132193635748
+Iteration:16000  Loss:tensor(0.0757, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 37
+loss: 0.14719474533687554
+accuracy: 0.953489971225457
+echo: 38
+loss: 0.1502385441637576
+accuracy: 0.9525220040622885
+Iteration:16500  Loss:tensor(0.0842, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 39
+loss: 0.140473556532679
+accuracy: 0.9551138287068383
+Iteration:17000  Loss:tensor(0.1467, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 40
+loss: 0.14018783255775957
+accuracy: 0.9557697190250508
+Iteration:17500  Loss:tensor(0.1437, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 41
+loss: 0.13808641789295661
+accuracy: 0.9558173239675017
+Iteration:18000  Loss:tensor(0.1063, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 42
+loss: 0.13634559238479602
+accuracy: 0.9572560511171293
+Iteration:18500  Loss:tensor(0.1165, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 43
+loss: 0.13554368129273728
+accuracy: 0.9575998645903858
+echo: 44
+loss: 0.13028179475446167
+accuracy: 0.9578220209884901
+Iteration:19000  Loss:tensor(0.0639, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 45
+loss: 0.1299277056644172
+accuracy: 0.9594511679079214
+Iteration:19500  Loss:tensor(0.0353, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 46
+loss: 0.12924479554138055
+accuracy: 0.9592078537576167
+Iteration:20000  Loss:tensor(0.1786, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 47
+loss: 0.12482039254352945
+accuracy: 0.9591866960054164
+Iteration:20500  Loss:tensor(0.1002, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 48
+loss: 0.12819263551790286
+accuracy: 0.9587846987136086
+Iteration:21000  Loss:tensor(0.0783, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 49
+loss: 0.12647837069397572
+accuracy: 0.9591496699390657
+Iteration:21500  Loss:tensor(0.2001, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 50
+loss: 0.119403034408899
+accuracy: 0.9624026743398781
+echo: 51
+loss: 0.12284719908027358
+accuracy: 0.960101768788084
+Iteration:22000  Loss:tensor(0.0831, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 52
+loss: 0.11921102629524272
+accuracy: 0.9617467840216655
+Iteration:22500  Loss:tensor(0.0672, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 53
+loss: 0.118478291336959
+accuracy: 0.9617467840216655
+Iteration:23000  Loss:tensor(0.2372, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 54
+loss: 0.11580353911736566
+accuracy: 0.9628575660121869
+Iteration:23500  Loss:tensor(0.2205, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 55
+loss: 0.11440104141531256
+accuracy: 0.962709461746784
+Iteration:24000  Loss:tensor(0.0893, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 56
+loss: 0.11248160644447634
+accuracy: 0.9644920023696683
+echo: 57
+loss: 0.11195947576790907
+accuracy: 0.9637409021665538
+Iteration:24500  Loss:tensor(0.0543, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 58
+loss: 0.11061438471873365
+accuracy: 0.9654864167230873
+Iteration:25000  Loss:tensor(0.0949, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 59
+loss: 0.10598075728845822
+accuracy: 0.9670626692620177
+Iteration:25500  Loss:tensor(0.0901, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 60
+loss: 0.1000835347955967
+accuracy: 0.9680676624915369
+Iteration:26000  Loss:tensor(0.0722, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 61
+loss: 0.09914034428913587
+accuracy: 0.9693371276235612
+Iteration:26500  Loss:tensor(0.0636, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 62
+loss: 0.09536351107272774
+accuracy: 0.9712254570074474
+Iteration:27000  Loss:tensor(0.0596, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 63
+loss: 0.09706526528602528
+accuracy: 0.9706594871360866
+echo: 64
+loss: 0.09851923120600917
+accuracy: 0.9692630754908598
+Iteration:27500  Loss:tensor(0.1156, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 65
+loss: 0.09303470809559969
+accuracy: 0.9714793500338524
+Iteration:28000  Loss:tensor(0.0666, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 66
+loss: 0.09417620578657182
+accuracy: 0.9716380331753555
+Iteration:28500  Loss:tensor(0.0934, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 67
+loss: 0.09199089503745544
+accuracy: 0.9709186696005416
+Iteration:29000  Loss:tensor(0.0792, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 68
+loss: 0.09425300621025935
+accuracy: 0.9712677725118484
+Iteration:29500  Loss:tensor(0.1455, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 69
+loss: 0.09409157176153354
+accuracy: 0.9711672731888964
+echo: 70
+loss: 0.09241065401716325
+accuracy: 0.9712307464454977
+Iteration:30000  Loss:tensor(0.1099, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 71
+loss: 0.0941038669850589
+accuracy: 0.9706594871360866
+Iteration:30500  Loss:tensor(0.0822, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 72
+loss: 0.09021326691194734
+accuracy: 0.9722198713608666
+Iteration:31000  Loss:tensor(0.0887, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 73
+loss: 0.09278236024779095
+accuracy: 0.9725425270819229
+Iteration:31500  Loss:tensor(0.1391, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 74
+loss: 0.08899348571243303
+accuracy: 0.972558395396073
+Iteration:32000  Loss:tensor(0.0864, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 75
+loss: 0.09123274677331555
+accuracy: 0.9721828452945159
+echo: 76
+loss: 0.09232900981786904
+accuracy: 0.9720717670954638
+Iteration:32500  Loss:tensor(0.0201, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 77
+loss: 0.09078002345452518
+accuracy: 0.9718443212593094
+Iteration:33000  Loss:tensor(0.0316, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 78
+loss: 0.09316216553980705
+accuracy: 0.9708181702775897
+Iteration:33500  Loss:tensor(0.1158, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 79
+loss: 0.09108889479878672
+accuracy: 0.9723626861882193
+Iteration:34000  Loss:tensor(0.1429, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 80
+loss: 0.09119541595041117
+accuracy: 0.9712201675693974
+Iteration:34500  Loss:tensor(0.1245, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 81
+loss: 0.08772844188268433
+accuracy: 0.9726694735951252
+Iteration:35000  Loss:tensor(0.0778, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 82
+loss: 0.09252006138599879
+accuracy: 0.9704796462423833
+echo: 83
+loss: 0.08840186225020844
+accuracy: 0.9727488151658767
+Iteration:35500  Loss:tensor(0.0460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 84
+loss: 0.08880300763817901
+accuracy: 0.9725107904536222
+Iteration:36000  Loss:tensor(0.1203, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 85
+loss: 0.09014203146947504
+accuracy: 0.973595125253893
+Iteration:36500  Loss:tensor(0.0942, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 86
+loss: 0.09006575638896198
+accuracy: 0.972082345971564
+Iteration:37000  Loss:tensor(0.2041, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 87
+loss: 0.09065027898221643
+accuracy: 0.9717120853080569
+Iteration:37500  Loss:tensor(0.0807, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 88
+loss: 0.08772491073562494
+accuracy: 0.9724473171970209
+echo: 89
+loss: 0.08874058183194337
+accuracy: 0.9724102911306702
+Iteration:38000  Loss:tensor(0.0757, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 90
+loss: 0.08764574304664445
+accuracy: 0.9731455230196344
+Iteration:38500  Loss:tensor(0.0872, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 91
+loss: 0.08695777959159412
+accuracy: 0.9737379400812458
+Iteration:39000  Loss:tensor(0.0667, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 92
+loss: 0.08665577023206235
+accuracy: 0.9736691773865944
+Iteration:39500  Loss:tensor(0.1267, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 93
+loss: 0.08815264744216232
+accuracy: 0.9724102911306702
+Iteration:40000  Loss:tensor(0.0963, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 94
+loss: 0.08738717764298215
+accuracy: 0.9729233666215301
+Iteration:40500  Loss:tensor(0.1052, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 95
+loss: 0.0890194994587257
+accuracy: 0.9729974187542316
+echo: 96
+loss: 0.08665349254146289
+accuracy: 0.9745948290453622
+Iteration:41000  Loss:tensor(0.1200, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 97
+loss: 0.08678214991756525
+accuracy: 0.9742139895057549
+Iteration:41500  Loss:tensor(0.1555, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 98
+loss: 0.0865522263156718
+accuracy: 0.9740711746784022
+Iteration:42000  Loss:tensor(0.1607, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 99
+loss: 0.0868537264447924
+accuracy: 0.9729286560595801
+Iteration:42500  Loss:tensor(0.1362, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 100
+loss: 0.08907708569354779
+accuracy: 0.9735633886255924
+Iteration:43000  Loss:tensor(0.0802, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 101
+loss: 0.08520952613044407
+accuracy: 0.9745101980365606
+echo: 102
+loss: 0.0870585333494143
+accuracy: 0.9732989167230873
+Iteration:43500  Loss:tensor(0.1340, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 103
+loss: 0.08570101659003451
+accuracy: 0.9745525135409614
+Iteration:44000  Loss:tensor(0.0460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 104
+loss: 0.08744903795544712
+accuracy: 0.9726271580907244
+Iteration:44500  Loss:tensor(0.1123, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 105
+loss: 0.08481461466267988
+accuracy: 0.9735792569397428
+Iteration:45000  Loss:tensor(0.0578, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 106
+loss: 0.0866588844313017
+accuracy: 0.9734470209884901
+Iteration:45500  Loss:tensor(0.0972, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 107
+loss: 0.08889292677537808
+accuracy: 0.9732566012186865
+echo: 108
+loss: 0.086199921174019
+accuracy: 0.9738807549085985
+Iteration:46000  Loss:tensor(0.1054, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 109
+loss: 0.08757258363297624
+accuracy: 0.9738543077183479
+Iteration:46500  Loss:tensor(0.0711, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 110
+loss: 0.08667176579217917
+accuracy: 0.9738543077183479
+Iteration:47000  Loss:tensor(0.1552, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 111
+loss: 0.0844589305723801
+accuracy: 0.9744096987136086
+Iteration:47500  Loss:tensor(0.0744, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 112
+loss: 0.08671581396894856
+accuracy: 0.9743039099526066
+Iteration:48000  Loss:tensor(0.0722, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 113
+loss: 0.08763825007321499
+accuracy: 0.9731561018957346
+Iteration:48500  Loss:tensor(0.1017, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 114
+loss: 0.08766808021389902
+accuracy: 0.9729656821259309
+echo: 115
+loss: 0.087464517728377
+accuracy: 0.9738966232227488
+Iteration:49000  Loss:tensor(0.0447, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 116
+loss: 0.0883452716499779
+accuracy: 0.9721193720379147
+Iteration:49500  Loss:tensor(0.1113, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 117
+loss: 0.08597564878454211
+accuracy: 0.9725478165199729
+Iteration:50000  Loss:tensor(0.0519, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 118
+loss: 0.08564578103104616
+accuracy: 0.9738860443466486
+Iteration:50500  Loss:tensor(0.1332, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 119
+loss: 0.08735950115044111
+accuracy: 0.9738437288422478
+Iteration:51000  Loss:tensor(0.0272, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 120
+loss: 0.08373555193889128
+accuracy: 0.9744467247799593
+echo: 121
+loss: 0.08402281006912908
+accuracy: 0.9753300609343264
+Iteration:51500  Loss:tensor(0.0907, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 122
+loss: 0.08431057591362022
+accuracy: 0.9737802555856465
+Iteration:52000  Loss:tensor(0.0548, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 123
+loss: 0.08523591670927137
+accuracy: 0.974536645226811
+Iteration:52500  Loss:tensor(0.0211, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 124
+loss: 0.08734435359483929
+accuracy: 0.9731190758293838
+Iteration:53000  Loss:tensor(0.0437, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 125
+loss: 0.08833526834068706
+accuracy: 0.9739230704129993
+Iteration:53500  Loss:tensor(0.1158, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 126
+loss: 0.08558405828066347
+accuracy: 0.9737802555856465
+Iteration:54000  Loss:tensor(0.0647, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 127
+loss: 0.08565287869776736
+accuracy: 0.9731190758293838
+echo: 128
+loss: 0.08609676079480287
+accuracy: 0.975155509478673
+Iteration:54500  Loss:tensor(0.0792, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 129
+loss: 0.08384300528703284
+accuracy: 0.9743039099526066
+Iteration:55000  Loss:tensor(0.2108, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 130
+loss: 0.088585646840704
+accuracy: 0.9722198713608666
+Iteration:55500  Loss:tensor(0.1489, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 131
+loss: 0.08508136723261167
+accuracy: 0.9741875423155043
+Iteration:56000  Loss:tensor(0.0374, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 132
+loss: 0.08693173490641241
+accuracy: 0.9737062034529451
+Iteration:56500  Loss:tensor(0.1279, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 133
+loss: 0.08577107560657565
+accuracy: 0.9733253639133378
+echo: 134
+loss: 0.08776000582379116
+accuracy: 0.9743620937711577
+Iteration:57000  Loss:tensor(0.0492, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 135
+loss: 0.08549151964644544
+accuracy: 0.9743568043331077
+Iteration:57500  Loss:tensor(0.0460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 136
+loss: 0.08581929598930535
+accuracy: 0.9738754654705485
+Iteration:58000  Loss:tensor(0.0760, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 137
+loss: 0.08579234697666213
+accuracy: 0.9744520142180095
+Iteration:58500  Loss:tensor(0.1319, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 138
+loss: 0.08630281842150395
+accuracy: 0.9732936272850372
+Iteration:59000  Loss:tensor(0.0812, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 139
+loss: 0.08715585884925031
+accuracy: 0.9725266587677726
+Iteration:59500  Loss:tensor(0.1182, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 140
+loss: 0.08730615106062584
+accuracy: 0.972658894719025
+echo: 141
+loss: 0.08865295172452715
+accuracy: 0.9720294515910629
+Iteration:60000  Loss:tensor(0.1037, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 142
+loss: 0.08819103744587203
+accuracy: 0.972293923493568
+Iteration:60500  Loss:tensor(0.1373, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 143
+loss: 0.08655255351445121
+accuracy: 0.9740394380501015
+Iteration:61000  Loss:tensor(0.0536, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 144
+loss: 0.08857793298051185
+accuracy: 0.972970971563981
+Iteration:61500  Loss:tensor(0.1111, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 145
+loss: 0.08646175922534619
+accuracy: 0.9733253639133378
+Iteration:62000  Loss:tensor(0.0638, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 146
+loss: 0.08690898785570646
+accuracy: 0.9721511086662152
+echo: 147
+loss: 0.08515384340420436
+accuracy: 0.9737749661475965
+Iteration:62500  Loss:tensor(0.0172, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 148
+loss: 0.0853600808247147
+accuracy: 0.9743303571428572
+Iteration:63000  Loss:tensor(0.0831, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 149
+loss: 0.08821967998034017
+accuracy: 0.9736004146919431
+Iteration:63500  Loss:tensor(0.0632, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 150
+loss: 0.08771835748212174
+accuracy: 0.9735210731211915
+Iteration:64000  Loss:tensor(0.0412, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 151
+loss: 0.08552971244370344
+accuracy: 0.9736215724441435
+Iteration:64500  Loss:tensor(0.0938, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 152
+loss: 0.08594989524580432
+accuracy: 0.9729551032498307
+echo: 153
+loss: 0.0859791844271088
+accuracy: 0.9744044092755586
+Iteration:65000  Loss:tensor(0.1071, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 154
+loss: 0.08607070682287851
+accuracy: 0.9737432295192958
+Iteration:65500  Loss:tensor(0.1023, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 155
+loss: 0.08854628624659366
+accuracy: 0.9722463185511172
+Iteration:66000  Loss:tensor(0.0655, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 156
+loss: 0.0834807143215602
+accuracy: 0.9748169854434664
+Iteration:66500  Loss:tensor(0.1282, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 157
+loss: 0.08744963985466138
+accuracy: 0.9727752623561273
+Iteration:67000  Loss:tensor(0.0306, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 158
+loss: 0.08728146024701579
+accuracy: 0.9735210731211915
+Iteration:67500  Loss:tensor(0.0781, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 159
+loss: 0.08635268716574139
+accuracy: 0.9745260663507109
+echo: 160
+loss: 0.08709095960032742
+accuracy: 0.9734734681787407
+Iteration:68000  Loss:tensor(0.1102, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 161
+loss: 0.08623498073951187
+accuracy: 0.9736480196343941
+Iteration:68500  Loss:tensor(0.1459, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 162
+loss: 0.08625560365970383
+accuracy: 0.9745472241029113
+Iteration:69000  Loss:tensor(0.0807, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 163
+loss: 0.08757095993165438
+accuracy: 0.9732618906567365
+Iteration:69500  Loss:tensor(0.0501, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 164
+loss: 0.08548149626516688
+accuracy: 0.9741769634394042
+Iteration:70000  Loss:tensor(0.0660, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 165
+loss: 0.08479321114189252
+accuracy: 0.9745260663507109
+echo: 166
+loss: 0.086037077658514
+accuracy: 0.9743409360189573
+Iteration:70500  Loss:tensor(0.1079, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 167
+loss: 0.08819409504850612
+accuracy: 0.9726377369668247
+Iteration:71000  Loss:tensor(0.0900, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 168
+loss: 0.08646561969866119
+accuracy: 0.9735263625592417
+Iteration:71500  Loss:tensor(0.0452, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 169
+loss: 0.08629164963925337
+accuracy: 0.9734840470548408
+Iteration:72000  Loss:tensor(0.0165, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 170
+loss: 0.08494814186935176
+accuracy: 0.9745630924170616
+Iteration:72500  Loss:tensor(0.0991, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 171
+loss: 0.08792402780001268
+accuracy: 0.9721193720379147
+Iteration:73000  Loss:tensor(0.1000, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 172
+loss: 0.08810613148346967
+accuracy: 0.9717861374407583
+echo: 173
+loss: 0.09010212605386549
+accuracy: 0.972553105958023
+Iteration:73500  Loss:tensor(0.0839, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 174
+loss: 0.08694699479893768
+accuracy: 0.9738490182802979
+Iteration:74000  Loss:tensor(0.0742, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 175
+loss: 0.08285037218482715
+accuracy: 0.974742933310765
+Iteration:74500  Loss:tensor(0.0864, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 176
+loss: 0.0880133123754996
+accuracy: 0.9732248645903858
+Iteration:75000  Loss:tensor(0.1875, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 177
+loss: 0.08747079808450353
+accuracy: 0.9726271580907244
+Iteration:75500  Loss:tensor(0.0946, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 178
+loss: 0.08627436490579381
+accuracy: 0.9732989167230873
+echo: 179
+loss: 0.0869704643794075
+accuracy: 0.972452606635071
+Iteration:76000  Loss:tensor(0.0963, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 180
+loss: 0.08458830944540517
+accuracy: 0.9746265656736629
+Iteration:76500  Loss:tensor(0.0408, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 181
+loss: 0.085441689073192
+accuracy: 0.9741875423155043
+Iteration:77000  Loss:tensor(0.0817, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 182
+loss: 0.08647312692662268
+accuracy: 0.9738860443466486
+Iteration:77500  Loss:tensor(0.1072, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 183
+loss: 0.08634136973381466
+accuracy: 0.9735845463777928
+Iteration:78000  Loss:tensor(0.0858, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 184
+loss: 0.08691580770360703
+accuracy: 0.9738913337846986
+echo: 185
+loss: 0.08404300857547194
+accuracy: 0.9742563050101557
+Iteration:78500  Loss:tensor(0.0693, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 186
+loss: 0.08574735218332419
+accuracy: 0.9740077014218009
+Iteration:79000  Loss:tensor(0.1306, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 187
+loss: 0.08718590525318802
+accuracy: 0.9737855450236966
+Iteration:79500  Loss:tensor(0.0661, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 188
+loss: 0.08502276546997128
+accuracy: 0.9743726726472579
+Iteration:80000  Loss:tensor(0.0795, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 189
+loss: 0.08591721627322771
+accuracy: 0.97447846140826
+Iteration:80500  Loss:tensor(0.0256, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 190
+loss: 0.08611250226937622
+accuracy: 0.9740764641164522
+Iteration:81000  Loss:tensor(0.0414, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 191
+loss: 0.0871652773056197
+accuracy: 0.9736004146919431
+echo: 192
+loss: 0.08871715264262464
+accuracy: 0.9724843432633716
+Iteration:81500  Loss:tensor(0.0389, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 193
+loss: 0.08591695455613577
+accuracy: 0.9727488151658767
+Iteration:82000  Loss:tensor(0.0944, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 194
+loss: 0.08425548037522919
+accuracy: 0.9748857481381178
+Iteration:82500  Loss:tensor(0.1426, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 195
+loss: 0.08637670927208747
+accuracy: 0.9738543077183479
+Iteration:83000  Loss:tensor(0.0982, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 196
+loss: 0.08746693359458405
+accuracy: 0.9733623899796885
+Iteration:83500  Loss:tensor(0.0869, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 197
+loss: 0.0871105940407804
+accuracy: 0.9736691773865944
+echo: 198
+loss: 0.08460101177606962
+accuracy: 0.974637144549763
+Iteration:84000  Loss:tensor(0.1590, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 199
+loss: 0.08427718920871545
+accuracy: 0.9743726726472579
+Iteration:84500  Loss:tensor(0.0684, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 200
+loss: 0.0861078274140567
+accuracy: 0.9737114928909952
+Iteration:85000  Loss:tensor(0.0506, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 201
+loss: 0.08481871294987639
+accuracy: 0.9742668838862559
+Iteration:85500  Loss:tensor(0.0502, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 202
+loss: 0.08364677085360221
+accuracy: 0.9751925355450237
+Iteration:86000  Loss:tensor(0.0646, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 203
+loss: 0.0868292850225952
+accuracy: 0.9737114928909952
+Iteration:86500  Loss:tensor(0.0673, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 204
+loss: 0.08705265294336736
+accuracy: 0.9740288591740013
+echo: 205
+loss: 0.08619077286078325
+accuracy: 0.9741134901828029
+Iteration:87000  Loss:tensor(0.1388, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 206
+loss: 0.08973654777791475
+accuracy: 0.9729974187542316
+Iteration:87500  Loss:tensor(0.0857, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 207
+loss: 0.08657208721537443
+accuracy: 0.9739283598510494
+Iteration:88000  Loss:tensor(0.0832, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 208
+loss: 0.0837189198970371
+accuracy: 0.9749227742044685
+Iteration:88500  Loss:tensor(0.0821, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 209
+loss: 0.08653450629704795
+accuracy: 0.9726377369668247
+Iteration:89000  Loss:tensor(0.0580, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 210
+loss: 0.0866090718930437
+accuracy: 0.9733782582938388
+echo: 211
+loss: 0.08525194729550331
+accuracy: 0.9749280636425186
+Iteration:89500  Loss:tensor(0.1700, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 212
+loss: 0.08540624426898516
+accuracy: 0.9744520142180095
+Iteration:90000  Loss:tensor(0.1151, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 213
+loss: 0.08670745716293417
+accuracy: 0.9724843432633716
+Iteration:90500  Loss:tensor(0.1023, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 214
+loss: 0.08632910108608657
+accuracy: 0.9728440250507786
+Iteration:91000  Loss:tensor(0.0646, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 215
+loss: 0.08818449392491043
+accuracy: 0.9724843432633716
+Iteration:91500  Loss:tensor(0.0368, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 216
+loss: 0.08806452996834618
+accuracy: 0.9721828452945159
+echo: 217
+loss: 0.08680023263115877
+accuracy: 0.9733676794177387
+Iteration:92000  Loss:tensor(0.0442, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 218
+loss: 0.09009491337101323
+accuracy: 0.9732142857142857
+Iteration:92500  Loss:tensor(0.1032, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 219
+loss: 0.08535790951896052
+accuracy: 0.9732618906567365
+Iteration:93000  Loss:tensor(0.0780, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 220
+loss: 0.0856681316296495
+accuracy: 0.9736374407582938
+Iteration:93500  Loss:tensor(0.0319, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 221
+loss: 0.08356524306300904
+accuracy: 0.9749862474610698
+Iteration:94000  Loss:tensor(0.1022, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 222
+loss: 0.0858784048990192
+accuracy: 0.9741399373730535
+Iteration:94500  Loss:tensor(0.0918, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 223
+loss: 0.08624700741551075
+accuracy: 0.9735104942450914
+echo: 224
+loss: 0.08682990547543241
+accuracy: 0.973489336492891
+Iteration:95000  Loss:tensor(0.1060, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 225
+loss: 0.08525876074994063
+accuracy: 0.9749703791469194
+Iteration:95500  Loss:tensor(0.1702, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 226
+loss: 0.08562901830388965
+accuracy: 0.9733729688557887
+Iteration:96000  Loss:tensor(0.0309, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 227
+loss: 0.08610624755110362
+accuracy: 0.9742615944482058
+Iteration:96500  Loss:tensor(0.0707, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 228
+loss: 0.08749934865638473
+accuracy: 0.9736268618821936
+Iteration:97000  Loss:tensor(0.0686, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 229
+loss: 0.0853861025689055
+accuracy: 0.9750391418415707
+echo: 230
+loss: 0.08602245048712498
+accuracy: 0.9736268618821936
+Iteration:97500  Loss:tensor(0.1361, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 231
+loss: 0.08552628208472618
+accuracy: 0.9731084969532837
+Iteration:98000  Loss:tensor(0.1428, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 232
+loss: 0.08628374558842578
+accuracy: 0.9734417315504401
+Iteration:98500  Loss:tensor(0.0704, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 233
+loss: 0.08735432073262066
+accuracy: 0.9728546039268787
+Iteration:99000  Loss:tensor(0.0993, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 234
+loss: 0.08539506388934091
+accuracy: 0.974737643872715
+Iteration:99500  Loss:tensor(0.0427, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 235
+loss: 0.08443279576298043
+accuracy: 0.9736691773865944
+Iteration:100000  Loss:tensor(0.0991, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 236
+loss: 0.08462055515656822
+accuracy: 0.9741134901828029
+echo: 237
+loss: 0.08720380838042328
+accuracy: 0.9738119922139472
+Iteration:100500  Loss:tensor(0.0568, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 238
+loss: 0.08412953085923718
+accuracy: 0.9746318551117129
+Iteration:101000  Loss:tensor(0.0648, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 239
+loss: 0.08589710207806096
+accuracy: 0.9729974187542316
+Iteration:101500  Loss:tensor(0.1188, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 240
+loss: 0.08548470393211638
+accuracy: 0.973489336492891
+Iteration:102000  Loss:tensor(0.0604, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 241
+loss: 0.0844334746000326
+accuracy: 0.9738119922139472
+Iteration:102500  Loss:tensor(0.0531, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 242
+loss: 0.0867656544910223
+accuracy: 0.9734470209884901
+echo: 243
+loss: 0.08330082692541359
+accuracy: 0.975261298239675
+Iteration:103000  Loss:tensor(0.0548, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 244
+loss: 0.08487954422151803
+accuracy: 0.9747059072444143
+Iteration:103500  Loss:tensor(0.1068, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 245
+loss: 0.08550102754067894
+accuracy: 0.9735475203114421
+Iteration:104000  Loss:tensor(0.0373, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 246
+loss: 0.08304114503812451
+accuracy: 0.9747799593771157
+Iteration:104500  Loss:tensor(0.0460, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 247
+loss: 0.08621233332487291
+accuracy: 0.9743568043331077
+Iteration:105000  Loss:tensor(0.0861, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 248
+loss: 0.08518390622766803
+accuracy: 0.9737220717670955
+Iteration:105500  Loss:tensor(0.0415, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 249
+loss: 0.08403114498023527
+accuracy: 0.9749703791469194
+echo: 250
+loss: 0.08587991532547426
+accuracy: 0.9740024119837508
+Iteration:106000  Loss:tensor(0.0420, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 251
+loss: 0.08337213367806368
+accuracy: 0.9746318551117129
+Iteration:106500  Loss:tensor(0.0623, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 252
+loss: 0.08431573169553096
+accuracy: 0.9740288591740013
+Iteration:107000  Loss:tensor(0.1999, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 253
+loss: 0.08782667484381611
+accuracy: 0.974219278943805
+Iteration:107500  Loss:tensor(0.0419, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 254
+loss: 0.0861694463550762
+accuracy: 0.974224568381855
+Iteration:108000  Loss:tensor(0.0344, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 255
+loss: 0.08713959018651272
+accuracy: 0.9724420277589709
+echo: 256
+loss: 0.08841285402158285
+accuracy: 0.9721828452945159
+Iteration:108500  Loss:tensor(0.0535, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 257
+loss: 0.08806256228236932
+accuracy: 0.9728546039268787
+Iteration:109000  Loss:tensor(0.0347, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 258
+loss: 0.08438006228374503
+accuracy: 0.9748540115098171
+Iteration:109500  Loss:tensor(0.0680, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 259
+loss: 0.08342265267966766
+accuracy: 0.9751872461069735
+Iteration:110000  Loss:tensor(0.1151, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 260
+loss: 0.08439948191310133
+accuracy: 0.9741029113067028
+Iteration:110500  Loss:tensor(0.0819, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 261
+loss: 0.08273973876292601
+accuracy: 0.9753247714962762
+echo: 262
+loss: 0.08574460204514141
+accuracy: 0.9738860443466486
+Iteration:111000  Loss:tensor(0.0407, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 263
+loss: 0.08505358100069854
+accuracy: 0.974377962085308
+Iteration:111500  Loss:tensor(0.0832, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 264
+loss: 0.08328882907406908
+accuracy: 0.9735263625592417
+Iteration:112000  Loss:tensor(0.0723, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 265
+loss: 0.0844203727430183
+accuracy: 0.9734523104265402
+Iteration:112500  Loss:tensor(0.1087, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 266
+loss: 0.08458138802375698
+accuracy: 0.9750391418415707
+Iteration:113000  Loss:tensor(0.1184, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 267
+loss: 0.08594775368940633
+accuracy: 0.9747006178063643
+Iteration:113500  Loss:tensor(0.0297, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 268
+loss: 0.08290151492538045
+accuracy: 0.9753723764387271
+echo: 269
+loss: 0.08470904391912205
+accuracy: 0.9735580991875422
+Iteration:114000  Loss:tensor(0.0664, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 270
+loss: 0.0867234136891591
+accuracy: 0.9730450236966824
+Iteration:114500  Loss:tensor(0.1691, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 271
+loss: 0.08356176954980993
+accuracy: 0.9750074052132701
+Iteration:115000  Loss:tensor(0.0851, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 272
+loss: 0.08626414368246899
+accuracy: 0.9740764641164522
+Iteration:115500  Loss:tensor(0.0607, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 273
+loss: 0.0847936029925554
+accuracy: 0.9736533090724442
+Iteration:116000  Loss:tensor(0.0418, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 274
+loss: 0.08316404117553791
+accuracy: 0.9746688811780636
+echo: 275
+loss: 0.08557852327391081
+accuracy: 0.9737432295192958
+Iteration:116500  Loss:tensor(0.0286, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 276
+loss: 0.0822958979729157
+accuracy: 0.9757320582261341
+Iteration:117000  Loss:tensor(0.0907, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 277
+loss: 0.0838204231069057
+accuracy: 0.9740024119837508
+Iteration:117500  Loss:tensor(0.0598, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 278
+loss: 0.08411619762815005
+accuracy: 0.9736004146919431
+Iteration:118000  Loss:tensor(0.1441, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 279
+loss: 0.08493312225363689
+accuracy: 0.9743039099526066
+Iteration:118500  Loss:tensor(0.1663, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 280
+loss: 0.08470617197189145
+accuracy: 0.97447846140826
+Iteration:119000  Loss:tensor(0.0358, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 281
+loss: 0.08391530260055269
+accuracy: 0.972817577860528
+echo: 282
+loss: 0.08528788226228472
+accuracy: 0.9740447274881516
+Iteration:119500  Loss:tensor(0.0218, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 283
+loss: 0.08317783994873836
+accuracy: 0.9749333530805687
+Iteration:120000  Loss:tensor(0.0603, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 284
+loss: 0.08377107378907538
+accuracy: 0.9751925355450237
+Iteration:120500  Loss:tensor(0.0719, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 285
+loss: 0.0836618433891844
+accuracy: 0.9750973256601219
+Iteration:121000  Loss:tensor(0.1047, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 286
+loss: 0.0842253663290239
+accuracy: 0.9731137863913337
+Iteration:121500  Loss:tensor(0.1517, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 287
+loss: 0.0848548924020752
+accuracy: 0.9738595971563981
+echo: 288
+loss: 0.08482738494237452
+accuracy: 0.9744361459038592
+Iteration:122000  Loss:tensor(0.0654, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 289
+loss: 0.082852836362841
+accuracy: 0.9759330568720379
+Iteration:122500  Loss:tensor(0.0531, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 290
+loss: 0.08255643942900956
+accuracy: 0.974742933310765
+Iteration:123000  Loss:tensor(0.0880, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 291
+loss: 0.08427598499538491
+accuracy: 0.9746583023019634
+Iteration:123500  Loss:tensor(0.0999, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 292
+loss: 0.08485253531291587
+accuracy: 0.975155509478673
+Iteration:124000  Loss:tensor(0.0449, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 293
+loss: 0.08527899542999988
+accuracy: 0.9734523104265402
+echo: 294
+loss: 0.08596269354683246
+accuracy: 0.9731825490859851
+Iteration:124500  Loss:tensor(0.1232, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 295
+loss: 0.08419532860271739
+accuracy: 0.9745525135409614
+Iteration:125000  Loss:tensor(0.0986, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 296
+loss: 0.0852085662017007
+accuracy: 0.9741134901828029
+Iteration:125500  Loss:tensor(0.0537, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 297
+loss: 0.08285471891225162
+accuracy: 0.9745948290453622
+Iteration:126000  Loss:tensor(0.0849, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 298
+loss: 0.08202654713879547
+accuracy: 0.9750391418415707
+Iteration:126500  Loss:tensor(0.1478, device='cuda:0', grad_fn=<NllLossBackward>)  Accuracy:tensor(90, device='cuda:0')
+echo: 299
+loss: 0.08222727570903457
+accuracy: 0.9748804587000677
