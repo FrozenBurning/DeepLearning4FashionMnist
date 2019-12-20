@@ -188,7 +188,7 @@ Dropout使用基于概率的策略，将网络中某层的一部分参数随机�
 \centering
 \begin{tabular}{ccc}
     \hline
-    模型& 验证集准确率& 测试集准确率\\
+    模型& 验证集准确率& 测试集准确率(以Public榜为参考)\\
     \hline
     4-CNN & $89.63\%$ &$89.53\%$\\
     Resnet & $91.28\%$&$88.60\%$\\
@@ -198,10 +198,21 @@ Dropout使用基于概率的策略，将网络中某层的一部分参数随机�
 \end{tabular}
 \end{table}
 
+最终kaggle榜上情况如下：
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ccc}
+        \hline
+        队名(\textbf{FrozenBurning})&Public榜&\textbf{Private榜}\\
+        \hline
+        准确率 & $90.333\%$ &$91.257\%$\\
+        排名 &$55$ &$25$\\
+        \hline
+    \end{tabular}
+\end{table}
+
 \section{总结}
 
 本次大作业，确实收获良多。在kaggle打榜的驱动力下，从零开始，从简单结构做起，一步步地改进网络结构，优化超参数，学习神经网络的工作机理和参数问题，最终较好的完成了图像分类任务。不同的网络结构、参数设置会导致不同的结果，在计算量、模型复杂度、模型性能、网络效率等多方面均需要进行考量，才能获得较满意的效果。
-
-最后，感谢助教的悉心指导和辛苦工作！
 
 \end{document}
