@@ -8,38 +8,31 @@
  -->
 # Deep Learning On Fashion-Mnist
 
-**2017011552 陈昭熹**
+### Folder
 
-## 文件结构说明
+- report/ report
+- images/ relative images
 
-### 文件夹
+### Source code
 
-- report/ 报告
-- images/ 相关图片
+#### Model
 
-### 源码文件
+- CNN4Module.py  CNN
+- myresnet18.py  Resnet18
+- pretrain_res18.py  Advanced Resnet18
+- inceptionNet.py InceptionNet
 
-#### 模型
-
-- CNN4Module.py  四层全卷积网络模型
-- myresnet18.py  Resnet18模型
-- pretrain_res18.py  改进Resnet18模型
-- inceptionNet.py InceptionNet模型
-
-#### 训练
-
-对应不同网络的训练脚本
+#### Train
 
 - local_cnn4_valid.py 
 - local_inception_valid.py
 - local_resnet_valid.py
 
-加载模型用于生成预测csv
-
+#### Predict
 - LoadModel.py
 
-#### 一些功能
+#### Utils
 
-- divider.py  原始数据集分割
-- grid_search.py  网格搜索法确定超参数
-- visualize*  可视化
+- divider.py  divide dataset into train and valid
+- grid_search.py  Hyper Param
+- visualize*  visualization
